@@ -2,6 +2,37 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+/*
+ * Our question is :
+ * Let S0 be some rotation of a string S. 
+ * (For definition of rotation, imagine the string on a circle and start reading from any character.) 
+ * For all rotations of a particular string, there exists one that is lexicographically minimal.
+ * For example, for string bbabbaaccdef the minimal rotation is aaccdefbbabb.
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * So how to solve this problem.
+ *
+ *
+ *
+ *
+ *
+ * 
+*/
+
+
+
+
+
+
+
 /*
  * s is the text
  * indexs is the array which store our optional position
