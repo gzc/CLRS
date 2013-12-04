@@ -25,7 +25,7 @@ int RK_match(char *text,char *pattern,int d,int q)
 	size_t h = (size_t)pow(d,m-1);
 	int p = 0;
 	int t = 0;
-	int k = 96; //'a' is 1; 'b' is 2 and so om
+	int k = 96; //'a' is 1; 'b' is 2 and so on
 
 	int i;
 	for(i = 0; i < m; i++)
