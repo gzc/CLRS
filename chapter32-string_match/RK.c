@@ -67,13 +67,3 @@ int RK_match(char *text,char *pattern,int d,int q)
 	return -1;
 }
 
-
-int main()
-{
-	char *s1 = "abcabcabcd";
-	char *s2 = "abcd";
-	int prime = factorial(11)+1;
-	int offset = RK_match(s1,s2,10,prime);
-	printf("offset is %d\n",offset);
-	return 0;
-}
