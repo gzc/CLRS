@@ -2,6 +2,33 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+/*
+ *
+ * Zuma is a game by Popcap. 
+ * Now we adapt it the the strings we love to process. 
+ * Consider a long stream S, the player should eliminate any occurences of a particular substring T.
+ * The process is done repeatedly and recursively. For example:
+ *
+ *
+ * S: abtetetedtedddc
+ * T: ted
+ *    abtetetedtedddc
+ *	  abtete---tedddc
+ *    abtete------ddc
+ *    abte---------dc
+ *    ab------------c
+ *    result: abc
+ *
+ *
+ * Adapt some suitable substring matching algorithms (any one you find conve- nient) to this scenario.
+ *
+ */
+
+
+
+
+
 /*
  * calculate our next array
  */
@@ -45,7 +72,9 @@ int KMP_match(char *text,char *pattern)
 	return -1;
 }
 
-
+/*
+ * Here we use KMP to solve this problem.
+ */
 int main()
 {
 	char *s1 = "abtetetedtedddc";
