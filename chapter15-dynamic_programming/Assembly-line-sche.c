@@ -115,6 +115,6 @@ int main()
 	int *l2 = (int*)malloc((n-1)*sizeof(int));
 	int way = Fastway(a1,a2,t1,t2,e,x,n,l1,l2,&value);
 	printf("value = %d\n",value);
-	PRINT_STATIONS(l1,l2,way,n);
+	reverse_PRINT_STATIONS(l1,l2,way,n);
 	return 0;
 }
