@@ -61,6 +61,18 @@ void PRINT_STATIONS(int *l1,int *l2,int way,int n)
 	}
 }
 
+void reverse_PRINT_STATIONS(int *l1,int *l2,int way,int n)
+{
+	int new_way;
+	if(way == 1)
+		new_way = l1[n-2];
+	else
+		new_way = l2[n-2];
+	if(n >= 2)
+		reverse_PRINT_STATIONS(l1,l2,new_way,n-1);
+	printf("line%d,station%d\n",way,n);
+}
+
 int main()
 {
 	int n = 6;
