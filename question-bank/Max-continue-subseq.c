@@ -27,7 +27,7 @@
  * we construct a f(n)
  * f(n) = f(n-1)+a(n)    if  f(n-1) >= 0
  *	    = an			 if  f(n-1) < 0
- *	    = a1             if  n = 1
+ *	    = a0             if  n = 0
  *
  *	    for example
  *
@@ -38,4 +38,44 @@
  *
  */
 
+#include <stdlib.h>
+#include <stdio.h>
 
+
+int* pre_process(int *a,int n)
+{
+	int *f = (int*)malloc(n*sizeof(int));
+	int i;
+	for(i = 0;i < n;i++)
+	{
+		if(i == 0)
+			f[i] = a[i];
+		else if(f[i-1] >= 0)
+			f[i] = f[i-1]+a[i];
+		else
+			f[i] = a[i];
+	}
+	return f;
+}
+
+int FIND_MAX(int *a,int n)
+{
+	int *f = pre_process(a,n);
+	int i;
+	int max = f[0];
+	for(i = 1;i < n;i++)
+		if(f[i] > max)
+			max = f[i];
+	free(f);
+	return max;
+}
+
+int main()
+{
+	int n = 7;
+	int a[] = {5,15,-30,10,-5,40,10};
+	int max = FIND_MAX(a,n);
+	printf("max =%d\n",max);
+
+	return 0;
+}
