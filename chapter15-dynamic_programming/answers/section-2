@@ -3,4 +3,29 @@
 
 15.2-2:
 	we should modify PRINT_OPTIMAL_PARENS.
-	
+	MATRIX_CHAIN_MULTIPLY(A,s,i,j)
+		if(i == j)
+			return A[i]
+		if(j == i+1)
+			return A[i]*A[j];
+		else
+			B1 = MATRIX_CHAIN_MULTIPLY(A,s,i,S[i,j])
+			B2 = MATRIX_CHAIN_MULTIPLY(A,s,S[i,j]+1,j)
+			return B1*B2
+
+15.2-3:
+	P(1)=1
+	we assume when k<n,p(k)>=c*2^k.
+	p(n) = sum(1,n-1)[p(k)p(n-k)] ≧sum(1,n-1)c*2^k*c*2^(n-k) = c^2*(n-1)*2^n
+	give a c,we have N0 = 1/c+1.when n > N0,we have P(n)>=c*2^n
+
+15.2-4:
+	look forward to our program,
+	sum = l(2 -> n)  (n-l+1)*(l-1)*2
+		= 2 * l(1->n-1) (n-l)*l
+		= (n^3-n)/3
+
+15.2-5:
+	In our previous program,wt get ((A1(A2A3))((A4A5)A6)).
+	n = 6,and we have 5 parentheses.
+	A pair of parentheses musts contain a operator and n elements must have n-1 operators, so a full parenthesization of an n-element expression has exactly n-1 pairs of parentheses.
