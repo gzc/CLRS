@@ -1,3 +1,9 @@
+/*
+ *
+ * 只给一个数组 a(大小为 n),用户不断输入 i,j 以获取从 a[i]到 a[j]的区间和,要求在多次询 问时的平均时间复杂度达到 O(1)
+ *
+ */
+
 #include <stdio.h>
 
 void pre_process(int *a,int n)
