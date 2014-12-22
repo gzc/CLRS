@@ -7,7 +7,7 @@
  ************************************************************************/
 #include<iostream>
 using namespace std;
-
+   
 /*
  * get the parent of this node
  */
