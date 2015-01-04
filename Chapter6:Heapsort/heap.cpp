@@ -83,3 +83,11 @@ void print(int A[], int n)
         cout << endl;
 
 }
+
+int main()
+{
+    int A[10] = {16,14,10,8,7,9,3,2,4,1};
+    heapsort(A, 10);
+    print(A, 10);
+    return 0;
+}
