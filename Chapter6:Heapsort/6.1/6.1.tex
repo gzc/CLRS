@@ -1,0 +1,97 @@
+% XeLaTeX can use any Mac OS X font. See the setromanfont command below.
+% Input to XeLaTeX is full Unicode, so Unicode characters can be typed directly into the source.
+
+% The next lines tell TeXShop to typeset with xelatex, and to open and save the source with Unicode encoding.
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[12pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage[colorlinks,linkcolor=black,anchorcolor=blue,citecolor=green]{hyperref}
+
+% Will Robertson's fontspec.sty can be used to simplify font choices.
+% To experiment, open /Applications/Font Book to examine the fonts provided on Mac OS X,
+% and change "Hoefler Text" to any of these choices.
+
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Hoefler Text}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+\title{算法导论习题6.1}
+\author{Louis1992  \\ 有需要可以\href{mailto:zhenchaogan@hotmail.com}{联系我} 
+\\ 我的github\href{https://github.com/gzc}{欢迎大家帮我完成算法导论}   \\ \href{https://gzc.github.io}{我的博客}}
+%\date{}                                           % Activate to display a given date or no date
+
+\usepackage[slantfont,boldfont]{xeCJK}
+\usepackage{xcolor}
+\setCJKmainfont{SimSun}
+\setCJKfamilyfont{song}{SimSun}
+
+
+\begin{document}
+\maketitle
+
+% For many users, the previous commands will be enough.
+% If you want to directly input Unicode, add an Input Menu or Keyboard to the menu bar 
+% using the International Panel in System Preferences.
+% Unicode must be typeset using a font containing the appropriate characters.
+% Remove the comment signs below for examples.
+
+% \newfontfamily{\A}{Geeza Pro}\sqrt[n]{}
+% \newfontfamily{\H}[Scale=0.9]{Lucida Grande}
+% \newfontfamily{\J}[Scale=0.85]{Osaka}
+
+% Here are some multilingual Unicode fonts: this is Arabic text: {\A السلام عليكم}, this is Hebrew: {\H שלום}, 
+% and here's some Japanese: {\J 今日は}.
+
+\noindent Exercises 6.1-1 What are the minimum and maximum numbers of elements in a heap of height h? \\
+最多就是一颗很完美的二叉树，是 $2^{h+1}-1$ ;
+最少的话最后一层只有一个，是 $2^{h}$ 
+\\ 
+\\
+
+\noindent Exercises 6.1-2
+Show that an n-element heap has height $\llcorner\lg{n}\lrcorner$ \\
+直接利用第一题的结论：$2^{h+1}-1\geq x \geq 2^{h} \rightrightarrows  \lg{x} \geq h \geq \lg{(x+1)}-1 $ \\
+所以 h = $\llcorner\lg{n}\lrcorner$
+\\
+\\
+
+\noindent Exercises 6.1-3
+Show that in any subtree of a max-heap, the root of the subtree contains the largest value occurring anywhere in that subtree. \\
+这就是最大堆的性质！
+\\
+\\
+
+\noindent Exercises 6.1-4
+Where in a max-heap might the smallest element reside, assuming that all elements are distinct? \\
+肯定是在叶子节点
+\\
+\\
+
+\noindent Exercises 6.1-5
+Is an array that is in sorted order a min-heap? \\
+没有说明是递增数组还是递减数组，所以不一定
+\\
+\\
+
+\noindent Exercises 6.1-6
+Is the sequence [23, 17, 14, 6, 13, 10, 1, 5, 7, 12] a max-heap? \\
+不是，7 > 6
+\\
+\\
+
+\noindent Exercises 6.1-7
+Show that, with the array representation for storing an n-element heap, the leaves are the nodes indexed by $\llcorner{n/2}\lrcorner$ + 1, $\llcorner{n/2}\lrcorner$ + 2, ... , n. \\
+也是很简单的性质
+
+
+\end{document}  
