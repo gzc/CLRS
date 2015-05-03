@@ -1,1 +1,8 @@
 .DS_Store
+*.out
+*.log
+*.gz
+*.aux
+*.tex
+
+images/
