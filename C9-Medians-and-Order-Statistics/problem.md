@@ -24,21 +24,28 @@ and
 
 ![](http://latex.codecogs.com/gif.latex?\\sum_{x_i > x_k}w_i \\le \\frac{1}{2})
 
-a. Argue that the median of x1, x2, ..., xn is the weighted median of the xi with weights wi = 1/n for i = 1,2, ..., n.b. Show how to compute the weighted median of n elements in O(n lg n) worst-case time using sorting.
+a. Argue that the median of x1, x2, ..., xn is the weighted median of the xi with weights wi = 1/n for i = 1,2, ..., n.
+b. Show how to compute the weighted median of n elements in O(n lg n) worst-case time using sorting.
+
 c. Show how to compute the weighted median in Θ(n) worst-case time using a linear- time median algorithm such as SELECT from Section 9.3.
 
 The **post-office location problem** is defined as follows. We are given *n* points p1, p2, ..., pn with associated weights w1, w2, ..., wn. We wish to find a point p (not necessarily one of the input points) that minimizes the sum 
 
 ![](http://latex.codecogs.com/gif.latex?\\sum_{i = 1}^{n}w_id\(p,p_i\)
 )
-where *d*(a, b) is the distance between points a and b.d. Argue that the weighted median is a best solution for the 1-dimensional post-office location problem, in which points are simply real numbers and the distance between points a and b is *d*(a, b) = |a - b|.e. Find the best solution for the 2-dimensional post-office location problem, in which the points are (x, y) coordinate pairs and the distance between points a = (x1, y1) and b = (x2, y2) is the **Manhattan distance** given by d(a, b) = |x1 - x2| + |y1 - y2|.
+where *d*(a, b) is the distance between points a and b.d. Argue that the weighted median is a best solution for the 1-dimensional post-office location problem, in which points are simply real numbers and the distance between points a and b is *d*(a, b) = |a - b|.
+e. Find the best solution for the 2-dimensional post-office location problem, in which the points are (x, y) coordinate pairs and the distance between points a = (x1, y1) and b = (x2, y2) is the **Manhattan distance** given by d(a, b) = |x1 - x2| + |y1 - y2|.
 
 
 ### `Answer`
 a. 好显然TAT.
+
 b. 先排序，然后开始遍历，直到加上某一个数字的权重 ≥ 1/2.
+
 c. [code](./problems/weighted_median.py)
+
 d. 假设p是带权中位数，只要偏离p,距离就会越来越大
+
 e. 分别找x和y方向的带权中位数，因为用的是曼哈顿距离，x和y是独立的，所以可以分开对待.
 
 
@@ -50,8 +57,11 @@ a. Describe an algorithm that uses Ui(n) comparisons to find the ith smallest of
 ![image](./repo/p/o.png)(Hint: Begin with 
 ![](http://latex.codecogs.com/gif.latex? \\lfloor n/2 \\rfloor )
 disjoint pairwise comparisons, and recurse on the set containing the smaller element from each pair.)
+
 b. Show that, if i < n/2, then Ui(n) = n + O(T (2i) lg(n/i)).
-c. Show that if i is a constant less than n/2, then Ui(n) = n + O(lg n).d. Show that if *i* = n/k for k≥2,then Ui(n) = n+O(T(2n/k)lgk).
+
+c. Show that if i is a constant less than n/2, then Ui(n) = n + O(lg n).
+d. Show that if *i* = n/k for k≥2,then Ui(n) = n+O(T(2n/k)lgk).
 
 ### `Answer`
 a. 
