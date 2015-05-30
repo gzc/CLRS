@@ -72,5 +72,10 @@ c. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\
 \\hspace{16 mm} = n + O\(\\lg\(n\)\) \\\\  ~
 )
 
+d. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\)\) \\\\       ~\\hspace{16 mm} = n + O\(T\(2n/k\)\\lg\(n / \(n/k\)\)\) \\\\       ~
+\\hspace{16 mm} = n + O\(T\(2n/k\)\\lg\(k\)\)
+)
+
+
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
