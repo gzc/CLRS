@@ -62,7 +62,7 @@ a.
 	很tricky的一点是为什么最后要调用T(2i),看下面这个数字[1,2,3,4],order-2是2，可是分组完后较小元素是[1,3],所以还要对另外i个数字进行比较.
 	
 b. ![](http://latex.codecogs.com/gif.latex? 
- \\begin{align}\label{eq:none}
+ \\begin{align} \\label{eq:none}
 	U_i\(n\)  = \\lfloor n/2 \\rfloor  + U_i\(\\lceil n/2 \\rceil\) + T\(2i\) \\nonumber \\
 	  = \\lfloor n/2 \\rfloor  + \\lceil n/2 \\rceil + O\(T\(2i\)\\lg\(\\lfloor n/2 \\rfloor / i\)\)	  \\ = n + O\(T\(2i\)\\lg\(n / i\) + T\(2i\) \\ = n + O\(T\(2i\)\\lg\(n / i\)
 \\end{align}
