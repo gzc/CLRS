@@ -18,11 +18,11 @@ For n distinct elements ![](http://latex.codecogs.com/gif.latex?x_1, x_2, ..., x
 ![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}w_i = 1)
 ,**the weighted (lower)** median is the element ![](http://latex.codecogs.com/gif.latex?x_k) satisfying
 
-![](http://latex.codecogs.com/gif.latex?\sum_{x_i < x_k}w_i < \frac{1}{2})
+![](http://latex.codecogs.com/gif.latex?\\sum_{x_i < x_k}w_i < \\frac{1}{2}     )
 
 and
 
-![](http://latex.codecogs.com/gif.latex?\sum_{x_i > x_k}w_i \le \frac{1}{2})
+![](http://latex.codecogs.com/gif.latex?\\sum_{x_i > x_k}w_i \\le \\frac{1}{2})
 
 a. Argue that the median of x1, x2, ..., xn is the weighted median of the xi with weights wi = 1/n for i = 1,2, ..., n.b. Show how to compute the weighted median of n elements in O(n lg n) worst-case time using sorting.
 c. Show how to compute the weighted median in Θ(n) worst-case time using a linear- time median algorithm such as SELECT from Section 9.3.
