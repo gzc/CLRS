@@ -61,10 +61,12 @@ a.
 	4. 当调用回来时，能找到这小的一组的第i个数，这个数左边都是比它小的数字，再从map中找到这i个数字对应的数字，这样总共有2i个数字，再对这2i个数字调用SELECT.
 	很tricky的一点是为什么最后要调用T(2i),看下面这个数字[1,2,3,4],order-2是2，可是分组完后较小元素是[1,3],所以还要对另外i个数字进行比较.
 
-b. 	![](http://latex.codecogs.com/gif.latex?\\begin{align} \\label{eq:none}
-	U_i\(n\) = \\lfloor n/2 \\rfloor  + U_i\(\\lceil n/2 \\rceil\) + T\(2i\) \\nonumber \\
-	  = \\lfloor n/2 \\rfloor  + \\lceil n/2 \\rceil + O\(T\(2i\)\\lg\(\\lfloor n/2 \\rfloor / i\)\)+T\(2i\)	  \\ = n + O\(T\(2i\)\\lg\(n / i\)\) + T\(2i\) \\ = n + O\(T\(2i\)\\lg\(n / i\)\)
-\\end{align})
+b. 	![](http://latex.codecogs.com/gif.latex?
+	U_i\(n\) = \\lfloor n/2 \\rfloor  + U_i\(\\lceil n/2 \\rceil\) + T\(2i\) \\nonumber \\\\  ~
+\\hspace{16 mm} = \\lfloor n/2 \\rfloor  + \\lceil n/2 \\rceil + O\(T\(2i\)\\lg\(\\lfloor n/2 \\rfloor / i\)\)+T\(2i\)	 \\\\  ~
+\\hspace{16 mm} = n + O\(T\(2i\)\\lg\(n / i\)\) + T\(2i\) \\\\  ~
+\\hspace{16 mm}= n + O\(T\(2i\)\\lg\(n / i\)\)
+)
 
 c. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\)\) \\\\  ~\\hspace{16 mm} = n + O\(O\(1\)\\lg\(n / i\)\) \\\\  ~
 \\hspace{16 mm} = n + O\(\\lg\(n\) - \\lg\(i\)\) \\\\  ~
