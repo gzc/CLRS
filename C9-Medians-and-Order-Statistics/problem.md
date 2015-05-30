@@ -15,7 +15,7 @@ a和b的代码在这里.[code](./problems/i-largest.py).
 ### Problems 2 : Weighted median
 ***
 For n distinct elements ![](http://latex.codecogs.com/gif.latex?x_1, x_2, ..., x_n) with positive weights ![](http://latex.codecogs.com/gif.latex?w_1, w_2, ..., w_n) such that 
-![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}w_i = 1)
+![](http://latex.codecogs.com/gif.latex?\\sum_{i=1}^{n}w_i = 1)
 ,**the weighted (lower)** median is the element ![](http://latex.codecogs.com/gif.latex?x_k) satisfying
 
 ![](http://latex.codecogs.com/gif.latex?\\sum_{x_i < x_k}w_i < \\frac{1}{2}     )
@@ -29,7 +29,7 @@ c. Show how to compute the weighted median in Θ(n) worst-case time using a line
 
 The **post-office location problem** is defined as follows. We are given *n* points p1, p2, ..., pn with associated weights w1, w2, ..., wn. We wish to find a point p (not necessarily one of the input points) that minimizes the sum 
 
-![](http://latex.codecogs.com/gif.latex?\sum_{i = 1}^{n}w_id(p,p_i\)
+![](http://latex.codecogs.com/gif.latex?\\sum_{i = 1}^{n}w_id(p,p_i\)
 )
 where *d*(a, b) is the distance between points a and b.d. Argue that the weighted median is a best solution for the 1-dimensional post-office location problem, in which points are simply real numbers and the distance between points a and b is *d*(a, b) = |a - b|.e. Find the best solution for the 2-dimensional post-office location problem, in which the points are (x, y) coordinate pairs and the distance between points a = (x1, y1) and b = (x2, y2) is the **Manhattan distance** given by d(a, b) = |x1 - x2| + |y1 - y2|.
 
@@ -63,10 +63,10 @@ a.
 	很tricky的一点是为什么最后要调用T(2i),看下面这个数字[1,2,3,4],order-2是2，可是分组完后较小元素是[1,3],所以还要对另外i个数字进行比较.
 	
 b. ![](http://latex.codecogs.com/gif.latex? 
- \begin{align}\label{eq:none}
-	U_i\(n\)  = \\lfloor n/2 \\rfloor  + U_i\(\lceil n/2 \rceil\) + T\(2i\) \nonumber \\
-	  = \\lfloor n/2 \\rfloor  + \lceil n/2 \rceil + O\(T\(2i\)\lg\(\\lfloor n/2 \\rfloor / i\)\)	  \\ = n + O\(T\(2i\)\lg\(n / i\) + T\(2i\) \\ = n + O\(T\(2i\)\lg\(n / i\)
-\end{align}
+ \\begin{align}\label{eq:none}
+	U_i\(n\)  = \\lfloor n/2 \\rfloor  + U_i\(\\lceil n/2 \\rceil\) + T\(2i\) \\nonumber \\
+	  = \\lfloor n/2 \\rfloor  + \\lceil n/2 \\rceil + O\(T\(2i\)\\lg\(\\lfloor n/2 \\rfloor / i\)\)	  \\ = n + O\(T\(2i\)\\lg\(n / i\) + T\(2i\) \\ = n + O\(T\(2i\)\\lg\(n / i\)
+\\end{align}
 )
 
 ***
