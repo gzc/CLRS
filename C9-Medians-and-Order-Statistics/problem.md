@@ -29,7 +29,7 @@ c. Show how to compute the weighted median in Θ(n) worst-case time using a line
 
 The **post-office location problem** is defined as follows. We are given *n* points p1, p2, ..., pn with associated weights w1, w2, ..., wn. We wish to find a point p (not necessarily one of the input points) that minimizes the sum 
 
-![](http://latex.codecogs.com/gif.latex?\\sum_{i = 1}^{n}w_id(p,p_i\)
+![](http://latex.codecogs.com/gif.latex?\\sum_{i = 1}^{n}w_id\(p,p_i\)
 )
 where *d*(a, b) is the distance between points a and b.d. Argue that the weighted median is a best solution for the 1-dimensional post-office location problem, in which points are simply real numbers and the distance between points a and b is *d*(a, b) = |a - b|.e. Find the best solution for the 2-dimensional post-office location problem, in which the points are (x, y) coordinate pairs and the distance between points a = (x1, y1) and b = (x2, y2) is the **Manhattan distance** given by d(a, b) = |x1 - x2| + |y1 - y2|.
 
@@ -59,7 +59,6 @@ a.
 	2. 如果i < n/2,那么就两个两个比较，生成了小的一组，同时也记录大的一组（比如可以用map映射起来）
 	3. 对小的一组递归调用这个函数
 	4. 当调用回来时，能找到这小的一组的第i个数，这个数左边都是比它小的数字，再从map中找到这i个数字对应的数字，这样总共有2i个数字，再对这2i个数字调用SELECT.
-	
 	很tricky的一点是为什么最后要调用T(2i),看下面这个数字[1,2,3,4],order-2是2，可是分组完后较小元素是[1,3],所以还要对另外i个数字进行比较.
 	
 b. ![](http://latex.codecogs.com/gif.latex? 
