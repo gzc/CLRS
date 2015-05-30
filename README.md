@@ -14,6 +14,7 @@
 		<td align="center"><a href="./C9-Medians-and-Order-Statistics/9.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C9-Medians-and-Order-Statistics/9.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C9-Medians-and-Order-Statistics/9.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C9-Medians-and-Order-Statistics/problem.md"><font color="black">p</font></td>
     </tr>
 
 </table>
