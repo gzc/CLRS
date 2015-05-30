@@ -66,10 +66,10 @@ b. 	![](http://latex.codecogs.com/gif.latex?\\begin{align} \\label{eq:none}
 	  = \\lfloor n/2 \\rfloor  + \\lceil n/2 \\rceil + O\(T\(2i\)\\lg\(\\lfloor n/2 \\rfloor / i\)\)+T\(2i\)	  \\ = n + O\(T\(2i\)\\lg\(n / i\)\) + T\(2i\) \\ = n + O\(T\(2i\)\\lg\(n / i\)\)
 \\end{align})
 
-c. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\)\) \\\\  ~\hspace{16 mm} = n + O\(O\(1\)\\lg\(n / i\)\) \\\\  ~
-\hspace{16 mm} = n + O\(\\lg\(n\) - \\lg\(i\)\) \\\\  ~
-\hspace{16 mm} = n + O\(\\lg\(n\) - O\(1\)\) \\\\  ~
-\hspace{16 mm} = n + O\(\\lg\(n\)\) \\\\  ~
+c. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\)\) \\\\  ~\\hspace{16 mm} = n + O\(O\(1\)\\lg\(n / i\)\) \\\\  ~
+\\hspace{16 mm} = n + O\(\\lg\(n\) - \\lg\(i\)\) \\\\  ~
+\\hspace{16 mm} = n + O\(\\lg\(n\) - O\(1\)\) \\\\  ~
+\\hspace{16 mm} = n + O\(\\lg\(n\)\) \\\\  ~
 )
 
 ***
