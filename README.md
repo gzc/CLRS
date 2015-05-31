@@ -20,6 +20,8 @@
         <tr>
     	<td align="center">XIII</td>
 		<td align="center"><a href="./C13-Red-Black-Trees/13.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C13-Red-Black-Trees/13.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C13-Red-Black-Trees/13.3.md"><font color="black">3</font></td>
 		
     </tr>
 
