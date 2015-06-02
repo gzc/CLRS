@@ -17,6 +17,15 @@
 		<td align="center"><a href="./C9-Medians-and-Order-Statistics/problem.md"><font color="black">p</font></td>
     </tr>
     
+    
+            <tr>
+    	<td align="center">XII</td>
+		<td align="center"><a href="./C12-Binary-Search-Trees/12.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C12-Binary-Search-Trees/12.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C12-Binary-Search-Trees/12.3.md"><font color="black">3</font></td>
+		</tr>
+    
+    
         <tr>
     	<td align="center">XIII</td>
 		<td align="center"><a href="./C13-Red-Black-Trees/13.1.md"><font color="black">1</font></td>
