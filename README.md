@@ -9,6 +9,14 @@
         <td><font size="4px" color="#0x888888">Chapter</font></td>
 		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Section</font></td>
     </tr>
+    
+       <tr>
+    	<td align="center">I</td>
+		<td align="center"><a href="./C01-The-Role-of-Algorithms-in-Computing/1.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C01-The-Role-of-Algorithms-in-Computing/1.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C01-The-Role-of-Algorithms-in-Computing/problem.md"><font color="black">p</font></td>
+    </tr>
+    
     <tr>
     	<td align="center">IX</td>
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/9.1.md"><font color="black">1</font></td>
