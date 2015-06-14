@@ -17,6 +17,14 @@
 		<td align="center"><a href="./C01-The-Role-of-Algorithms-in-Computing/problem.md"><font color="black">p</font></td>
     </tr>
     
+          <tr>
+    	<td align="center">II</td>
+		<td align="center"><a href="./C02-Getting-Started/2.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C02-Getting-Started/2.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C02-Getting-Started/2.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C02-Getting-Started/problem.md"><font color="black">p</font></td>
+    </tr>
+    
     <tr>
     	<td align="center">IX</td>
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/9.1.md"><font color="black">1</font></td>
