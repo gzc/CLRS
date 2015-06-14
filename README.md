@@ -26,6 +26,13 @@
     </tr>
     
     <tr>
+    	<td align="center">III</td>
+		<td align="center"><a href="./C03-Growth-of-Functions/3.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C03-Growth-of-Functions/3.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C03-Growth-of-Functions/problem.md"><font color="black">p</font></td>
+    </tr>
+    
+    <tr>
     	<td align="center">IX</td>
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/9.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/9.2.md"><font color="black">2</font></td>
