@@ -32,6 +32,15 @@
 		<td align="center"><a href="./C03-Growth-of-Functions/problem.md"><font color="black">p</font></td>
     </tr>
     
+    
+              <tr>
+    	<td align="center">IV</td>
+		<td align="center"><a href="./C04-Recurrences/4.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C04-Recurrences/4.2.md"><font color="black">2</font></td>
+    </tr>
+    
+    
+    
     <tr>
     	<td align="center">IX</td>
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/9.1.md"><font color="black">1</font></td>
