@@ -37,6 +37,9 @@
     	<td align="center">IV</td>
 		<td align="center"><a href="./C04-Recurrences/4.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C04-Recurrences/4.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C04-Recurrences/4.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C04-Recurrences/4.4.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C04-Recurrences/problem.md"><font color="black">p</font></td>
     </tr>
     
     
