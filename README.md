@@ -42,6 +42,16 @@
 		<td align="center"><a href="./C04-Recurrences/problem.md"><font color="black">p</font></td>
     </tr>
     
+    <tr>
+    	<td align="center">V</td>
+		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.4.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/problem.md"><font color="black">p</font></td>
+    </tr>
+
+    
     
     
     <tr>
