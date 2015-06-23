@@ -50,6 +50,17 @@
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/problem.md"><font color="black">p</font></td>
     </tr>
+    
+    
+    <tr>
+    	<td align="center">VI</td>
+		<td align="center"><a href="./C06-Heapsort/6.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C06-Heapsort/6.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C06-Heapsort/6.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C06-Heapsort/6.4.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C06-Heapsort/6.5.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C06-Heapsort/problem.md"><font color="black">p</font></td>
+    </tr>
 
     
     
