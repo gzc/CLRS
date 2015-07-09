@@ -93,6 +93,17 @@
     </tr>
     
     
+    <tr>
+    	<td align="center">X</td>
+		<td align="center"><a href="./C10-Elementary-Data-Structures/10.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C10-Elementary-Data-Structures/10.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C10-Elementary-Data-Structures/10.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C10-Elementary-Data-Structures/10.4.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C10-Elementary-Data-Structures/problem.md"><font color="black">p</font></td>
+    </tr>
+    
+    
+    
             <tr>
     	<td align="center">XII</td>
 		<td align="center"><a href="./C12-Binary-Search-Trees/12.1.md"><font color="black">1</font></td>
