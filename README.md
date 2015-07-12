@@ -1,4 +1,11 @@
 #Answers of CLRS.I need your help.
+
+如果你感兴趣,可以完成我没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork我的项目建个branch写完merge给我~
+
+If you are interested in my project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that I haven't finished, you could fork my project and make a branch to finish it and pull request to me.Thanks very much.
+
+In order to speed up this project, I will ignore hard problems(for instance, problems in the end of every chapter) and review them when finishing mediocre problems. You could also help me finish these hard peoblems.
+
 ***
 
 
@@ -9,6 +16,12 @@
         <td><font size="4px" color="#0x888888">Chapter</font></td>
 		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Section</font></td>
     </tr>
+    
+    <tr>
+        
+		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part I: Foundations</font></td>
+    </tr>
+
     
        <tr>
     	<td align="center">I</td>
@@ -49,6 +62,10 @@
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/problem.md"><font color="black">p</font></td>
+    </tr>
+    
+    <tr>
+		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888"> Part II: Sorting and Order Statistics</font></td>
     </tr>
     
     
@@ -93,6 +110,12 @@
     </tr>
     
     
+        <tr>
+		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part III: Data Structures</font></td>
+    </tr>
+    
+    
+    
     <tr>
     	<td align="center">X</td>
 		<td align="center"><a href="./C10-Elementary-Data-Structures/10.1.md"><font color="black">1</font></td>
@@ -100,6 +123,15 @@
 		<td align="center"><a href="./C10-Elementary-Data-Structures/10.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C10-Elementary-Data-Structures/10.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C10-Elementary-Data-Structures/problem.md"><font color="black">p</font></td>
+    </tr>
+    
+    <tr>
+    	<td align="center">XI</td>
+		<td align="center"><a href="./C11-Hash-Tables/11.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C11-Hash-Tables/11.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C11-Hash-Tables/11.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C11-Hash-Tables/11.4.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C11-Hash-Tables/problem.md"><font color="black">p</font></td>
     </tr>
     
     
@@ -123,6 +155,16 @@
     </tr>
 
 </table>
+***
+
+#UNSOLVED
+
+[11.1.4](./C11-Hash-Tables/11.1.md#exercises-111-4)
+
+[11.3.5](./C11-Hash-Tables/11.3.md#exercises-113-5)
+[11.3.6](./C11-Hash-Tables/11.3.md#exercises-113-6)
+
+[11.5.1](./C11-Hash-Tables/11.5.md#exercises-115-1)
 
 
 ***
