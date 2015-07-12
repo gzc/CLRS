@@ -131,6 +131,7 @@ In order to speed up this project, I will ignore hard problems(for instance, pro
 		<td align="center"><a href="./C11-Hash-Tables/11.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C11-Hash-Tables/11.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C11-Hash-Tables/11.4.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C11-Hash-Tables/11.5.md"><font color="black">5</font></td>
 		<td align="center"><a href="./C11-Hash-Tables/problem.md"><font color="black">p</font></td>
     </tr>
     
