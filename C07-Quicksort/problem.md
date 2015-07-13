@@ -212,6 +212,20 @@ Consider a sorting problem in which the numbers are not known exactly. Instead, 
 ### `Answer`
 [implementation](./exercise_code/fuzzy_sort.py)
 类似于quicksort,只是当重叠区域越多，pivot内的区别就越多~~
+
+### Problems 2 (3rd Edition): Quicksort with equal element values
+The analysis of the expected running time of randomized quicksort in Section 7.4.2 assumes that all element values are distinct. In this problem, we examine what happens when they are not.
+
+**a.** Suppose that all element values are equal. What would be randomized quick-sort's running time in this case? 
+If the algorithm uses Lumuto Partition, then running time is O(n^2)
+If the algorithm uses modified Hoare partition that stops scanning at equal case, then the worst case can be avoided. 
+
+**b.** Write a 3-way partition algorithm
+**c.** Implement randomized-3-way-partition
+
+^M[implementation](./exercise_code/quickSortWithEqualElements.cpp)
+
+**d.** Using 3-way-partition-qsort, adjust the analysis in Section 7.4.2 to avoid the assumpton that all elements are equal.
  
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
