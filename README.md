@@ -6,6 +6,8 @@ If you are interested in my project, you could complete problems which are marke
 
 In order to speed up this project, I will ignore hard problems(for instance, problems in the end of every chapter) and review them when finishing mediocre problems. You could also help me finish these hard peoblems.
 
+If a problem is too easy to elaborate, I'll mark it as **straightforward** in order to speed up my progress.
+
 ***
 
 
@@ -152,6 +154,15 @@ In order to speed up this project, I will ignore hard problems(for instance, pro
 		<td align="center"><a href="./C13-Red-Black-Trees/13.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C13-Red-Black-Trees/13.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C13-Red-Black-Trees/problem.md"><font color="black">p</font></td>
+		
+		
+		<tr>
+    	<td align="center">XIV</td>
+		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C14-Augmenting-Data-Structures/problem.md"><font color="black">p</font></td>
+
 		
     </tr>
 
