@@ -9,15 +9,20 @@ using namespace std;
 
 class QuickSort{
 public:
+    QuickSort(){}
+    ~QuickSort(){}
     void qsort(vector<int> &data);
+
     bool isSorted(int start, int end, vector<int> & data);
 private:
-    void sortHelper(int start, int end, vector<int> & data);
-    void threeSortHelper(int start, int end, vector<int> & data);
-    int getRandom(int start, int end);
+    void sortHelper(int start, int end, vector<int> & data);    
     int hoarePartition(int start, int end, vector<int> & data);
+
+    void threeSortHelper(int start, int end, vector<int> & data);
     pair<int, int> threeWayPartition(int start, int end, vector<int> & data);
     pair<int, int> fastThreePartition(int start, int end, vector<int> & data);
+
+    int getRandom(int start, int end);
 };
 
 void QuickSort::qsort(vector<int> & data){
@@ -25,23 +30,33 @@ void QuickSort::qsort(vector<int> & data){
 }
 
 void QuickSort::sortHelper(int start, int end, vector<int> & data){
-    if(start >= end){
-        return;
+    if(start < end){
+        int pivot = hoarePartition(start, end, data);
+        sortHelper(start, pivot - 1, data);
+        sortHelper(pivot + 1, end, data);
     }
-    int pivot = hoarePartition(start, end, data);
-    sortHelper(start, pivot - 1, data);
-    sortHelper(pivot + 1, end, data);
 }
 
-
-int QuickSort::getRandom(int start, int end){
-    srand(time(NULL));
-    return rand() % (end - start + 1) + start;
+void QuickSort::threeSortHelper(int start, int end, vector<int> & data){
+    if(start < end){
+        int randomIdx = getRandom(start, end);
+        swap(data[start], data[randomIdx]);
+        auto bound = fastThreePartition(start, end, data); 
+        threeSortHelper(start,bound.first - 1, data);
+        threeSortHelper(bound.second + 1, end, data);  
+    }
 }
+
+/*/////////////////////////////////////////
+ *
+ *  Partition Algorithm Block
+ *
+ */////////////////////////////////////////
+
 
 /*
- * Modified hoare partition, which stops scanning on equal elements to avoid 
- * worst case happen
+ * Modified Hoare Partition, which stops scanning on equal elements to avoid 
+ * the occurence of worst case O(n^2)
  * 
  * Ref: Programming Perls 2nd Edition, Jon Bentley
  */
@@ -89,9 +104,9 @@ pair<int, int> QuickSort::threeWayPartition(int start, int end, vector<int> & da
 }
 
 /**
- * The three way partition above do extra swaps for elements not equal to pivot.
- * The fast three way partition do extra swaps for elements equal to pivot to i
- * save time when the number of elements equal to pivot is smaller.
+ * The three way partition above does extra swaps for elements not equal to pivot.
+ * The fast three way partition below does extra swaps for elements equal to pivot to i.
+ * This algorithm does fewer swaps when the number of elements equal to pivot is smaller.
  *
  * Ref:Algorithms, 4th Edition by Robert S. and Kevin W. 
  *   
@@ -136,15 +151,16 @@ pair<int, int> QuickSort::fastThreePartition(int start, int end, vector<int> & d
         return make_pair(j + 1, i - 1);
 }
 
-void QuickSort::threeSortHelper(int start, int end, vector<int> & data){
-    if(start >= end){
-       return;
-    }
-    int randomIdx = getRandom(start, end);
-    swap(data[start], data[randomIdx]);
-    auto bound = fastThreePartition(start, end, data); 
-    threeSortHelper(start,bound.first - 1, data);
-    threeSortHelper(bound.second + 1, end, data);  
+/*/////////////////////////////////////////
+ *
+ *  Utility Function Block
+ *
+ */////////////////////////////////////////
+
+
+int QuickSort::getRandom(int start, int end){
+    srand(time(NULL));
+    return rand() % (end - start + 1) + start;
 }
 
 bool QuickSort::isSorted(int start, int end, vector<int> & data){
