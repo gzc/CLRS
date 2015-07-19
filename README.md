@@ -153,7 +153,7 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C13-Red-Black-Trees/13.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C13-Red-Black-Trees/13.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C13-Red-Black-Trees/13.4.md"><font color="black">4</font></td>
-		<td align="center"><a href="./C13-Red-Black-Trees/problem.md"><font color="black">p</font></td>
+		<td align="center"><a href="./C13-Red-Black-Trees/problem.md"><font color="black">p</font></td></tr>
 		
 		
 		<tr>
@@ -162,9 +162,21 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/problem.md"><font color="black">p</font></td>
+		</tr>
 
-		
-    </tr>
+	<tr>
+	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VI: Graph Algorithms</font></td></tr>
+
+		<tr>
+    	<td align="center">XXII</td>
+		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.4.md"><font color="black">4</font></td>
+		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.5.md"><font color="black">5</font></td>
+		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/problem.md"><font color="black">p</font></td>
+		</tr>
+
 
 </table>
 ***
@@ -177,6 +189,8 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 [11.3.6](./C11-Hash-Tables/11.3.md#exercises-113-6)
 
 [11.5.1](./C11-Hash-Tables/11.5.md#exercises-115-1)
+
+[22.4.4](./C22-Elementary-Graph-Algorithms/22.4.md#exercises-224-4)
 
 
 ***
