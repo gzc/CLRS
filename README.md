@@ -176,6 +176,12 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.5.md"><font color="black">5</font></td>
 		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/problem.md"><font color="black">p</font></td>
 		</tr>
+		
+		<tr>
+    	<td align="center">XXIII</td>
+		<td align="center"><a href="./C23-Minimum-Spanning-Trees/23.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C23-Minimum-Spanning-Trees/23.2.md"><font color="black">2</font></td>
+		</tr>
 
 
 </table>
