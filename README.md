@@ -4,7 +4,7 @@
 
 If you are interested in my project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that I haven't finished, you could fork my project and make a branch to finish it and pull request to me.Thanks very much.
 
-In order to speed up this project, I will ignore hard problems(for instance, problems in the end of every chapter) and review them when finishing mediocre problems. You could also help me finish these hard peoblems.
+In order to speed up this project, I will ignore hard problems(for instance, problems in the end of every chapter) and review them when finishing mediocre problems. Moreover, I will also ignore some sections that seems not interesting. You could also help me finish these hard peoblems.
 
 If a problem is too easy to elaborate, I'll mark it as **straightforward** in order to speed up my progress.
 
@@ -183,6 +183,14 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C23-Minimum-Spanning-Trees/23.2.md"><font color="black">2</font></td>
 		</tr>
 
+		<tr>
+    	<td align="center">XXIV</td>
+		<td align="center"><a href="./C24-Single-Source-Shortest-Paths/24.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C24-Single-Source-Shortest-Paths/24.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C24-Single-Source-Shortest-Paths/24.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C24-Single-Source-Shortest-Paths/24.4.md"><font color="black">4</font></td>
+		</tr>
+
 
 </table>
 ***
@@ -190,13 +198,18 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 #UNSOLVED
 
 [11.1.4](./C11-Hash-Tables/11.1.md#exercises-111-4)
-
 [11.3.5](./C11-Hash-Tables/11.3.md#exercises-113-5)
 [11.3.6](./C11-Hash-Tables/11.3.md#exercises-113-6)
-
 [11.5.1](./C11-Hash-Tables/11.5.md#exercises-115-1)
 
 [22.4.4](./C22-Elementary-Graph-Algorithms/22.4.md#exercises-224-4)
+
+[24.1.5](./C24-Single-Source-Shortest-Paths/24.1.md#exercises-241-5)
+[24.3.5](./C24-Single-Source-Shortest-Paths/24.3.md#exercises-243-5)
+[24.4.4](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-4)
+[24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
+[24.4.11](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-11)
+[24.4.12](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-12)
 
 
 ***
