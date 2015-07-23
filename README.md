@@ -196,6 +196,14 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.2.md"><font color="black">2</font></td>
 		</tr>
+		
+		<tr>
+	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VII: Selected Topics</font></td></tr>
+	
+	<tr>
+    	<td align="center">XXV</td>
+		<td align="center"><a href="./C32-String-Matching/32.1.md"><font color="black">1</font></td>
+		</tr>
 
 
 </table>
