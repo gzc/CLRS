@@ -204,6 +204,8 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
     	<td align="center">XXXII</td>
 		<td align="center"><a href="./C32-String-Matching/32.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C32-String-Matching/32.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C32-String-Matching/32.3.md"><font color="black">3</font></td>
+		<td align="center"><a href="./C32-String-Matching/32.4.md"><font color="black">4</font></td>
 		</tr>
 
 
@@ -230,6 +232,10 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 [25.1.5](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-5)
 [25.2.3](./C25-All-Pairs-Shortest-Paths/25.2.md#exercises-252-3)
 [25.2.9](./C25-All-Pairs-Shortest-Paths/25.2.md#exercises-252-9)
+
+[32.2.4](./C32-String-Matching/32.2.md#exercises-322-4)
+[32.3.4](./C32-String-Matching/32.3.md#exercises-323-4)
+[32.4.6](./C32-String-Matching/32.4.md#exercises-324-6)
 
 
 ***
