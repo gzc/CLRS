@@ -223,7 +223,7 @@ If the algorithm uses modified Hoare partition that stops scanning at equal case
 **b.** Write a 3-way partition algorithm
 **c.** Implement randomized-3-way-partition
 
-^M[implementation](./exercise_code/quickSortWithEqualElements.cpp)
+[implementation](./exercise_code/quickSortWithEqualElements.cpp)
 
 **d.** Using 3-way-partition-qsort, adjust the analysis in Section 7.4.2 to avoid the assumpton that all elements are equal.
  
