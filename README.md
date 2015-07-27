@@ -19,10 +19,7 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Section</font></td>
     </tr>
     
-    <tr>
-        
-		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part I: Foundations</font></td>
-    </tr>
+    <tr> <td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part I: Foundations</font></td></tr>
 
     
        <tr>
@@ -163,6 +160,15 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/problem.md"><font color="black">p</font></td>
 		</tr>
+		
+	<tr>
+	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part IV: Advanced Design and Analysis Techniques</font></td></tr>
+	
+	<tr>
+    	<td align="center">XV</td>
+		<td align="center"><a href="./C15-Dynamic-Programming/15.1.md"><font color="black">1</font></td>
+		</tr>
+
 
 	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VI: Graph Algorithms</font></td></tr>
