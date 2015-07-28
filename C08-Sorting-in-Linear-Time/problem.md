@@ -72,7 +72,7 @@ Suppose that the n records have keys in the range from 1 to k. Show how to modif
 ### `Answer`**a.** 
 计数排序就可以.**b.**
 
-两个指针，一个指向数组头，一个指向数组尾，同时向中间移动.
+Using HOARE-PARTITION can do it.More details in [Exercise7.1](C07-Quicksort/7.1.md)
 
 **c.**
 
