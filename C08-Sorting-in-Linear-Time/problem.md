@@ -108,10 +108,7 @@ merge-sort就可以
 
 1. The first one can be used.
 2. The second is not stable.
-
-
-![](http://latex.codecogs.com/gif.latex?
-3. The third takes \\Theta(nlgn)\\.
+3. The third takes `Theta(nlgn)`.
    
 **e.**
 
