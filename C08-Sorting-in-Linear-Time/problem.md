@@ -96,7 +96,7 @@ Suppose that the n records have keys in the range from 1 to k. Show how to modif
 
 **b.**
 
-Using HOARE-PARTITION can do it.More details in [Exercise7.1](CLRS/C07-Quicksort/7.1.md)
+Using HOARE-PARTITION can do it.More details in [Exercise7.1](https://github.com/gzc/CLRS/blob/master/C07-Quicksort/7.1.md)
 
 **c.**
 
