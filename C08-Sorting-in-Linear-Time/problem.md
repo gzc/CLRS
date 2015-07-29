@@ -134,7 +134,9 @@ For the nubers, we can do this:
 - Group the nunbers by number of digits and order  groups.
 - RADIX sort each group.
     
-We let the `Gi` be the group of numbers with i digits and ci = |Gi|, thus: we can multiply the `n*Ci` with `i`, then sum from `i = 1` to `i = highest digit`. We can get the `T(n) = n`.
+We let the `Gi` be the group of numbers with i digits and ci = |Gi|, thus: we can multiply the `n*Ci` with `i`, then sum from `i = 1` to `i = highest digit`. We can get the 
+
+![](http://latex.codecogs.com/gif.latex?T\(n\)= \\sum_{i = 1}nc_i \\cdot i = n )
 
 
 **b.**
@@ -146,7 +148,7 @@ reverse所有的字符串，用RADIX-SORT.当当遍历到某一个字符串超�
 
 0 | 1 | 2 | 3 | 4 | result | reverse
 :----: | :----: | :----: | :----: | :----: | :----: | :----:
-d | **b** | b | t | t | b | b 
+d | **b** | b |  |  | b | b 
 c | dc**b** | d**c**b | cb | | cb | bc
 b | c**b** | **c**b | **d**cb | dcb | dcb | bcd
 dcb | d**b** | **d**b | db | | db | bd
