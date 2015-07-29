@@ -168,6 +168,7 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
     	<td align="center">XV</td>
 		<td align="center"><a href="./C15-Dynamic-Programming/15.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C15-Dynamic-Programming/15.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C15-Dynamic-Programming/15.3.md"><font color="black">3</font></td>
 		</tr>
 
 
