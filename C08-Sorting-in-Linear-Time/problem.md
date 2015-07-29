@@ -129,7 +129,13 @@ b. You are given an array of strings, where different strings may have different
 
 **a.**
 
-用RADIX-SORT,不过要稍微变形下. 当遍历到某一个数字超过其位数时，用0替代，并且将该数字放在正常有数字的后面，以后就不用迭代了. 保证了O(n)的时间.
+For the nubers, we can do this:
+
+- Group the nunbers by number of digits and order  groups.
+- RADIX sort each group.
+    
+We let the `Gi` be the group of numbers with i digits and ci = |Gi|, thus: we can multiply the `n*Ci` with `i`, then sum from `i = 1` to `i = highest digit`. We can get the `T(n) = n`.
+
 
 **b.**
 
