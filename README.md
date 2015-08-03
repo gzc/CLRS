@@ -1,5 +1,7 @@
 #Answers of CLRS.I need your help.
 
+I cited some good answers in the Internet which are with detailed explanation in my repo. Please do not mind.
+
 如果你感兴趣,可以完成我没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork我的项目建个branch写完merge给我~
 
 If you are interested in my project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that I haven't finished, you could fork my project and make a branch to finish it and pull request to me.Thanks very much.
@@ -171,6 +173,13 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C15-Dynamic-Programming/15.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C15-Dynamic-Programming/15.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C15-Dynamic-Programming/15.5.md"><font color="black">5</font></td>
+		</tr>
+		
+	<tr>
+    	<td align="center">XVI</td>
+		<td align="center"><a href="./C16-Greedy-Algorithms/16.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C16-Greedy-Algorithms/16.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C16-Greedy-Algorithms/16.3.md"><font color="black">3</font></td>
 		</tr>
 
 
