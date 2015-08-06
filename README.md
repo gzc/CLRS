@@ -226,6 +226,10 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C32-String-Matching/32.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C32-String-Matching/32.4.md"><font color="black">4</font></td>
 		</tr>
+		
+		<tr><td align="center">XXXIII</td>
+		<td align="center"><a href="./C33-Computational-Geometry/33.1.md"><font color="black">1</font></td>
+		</tr>
 
 
 </table>
