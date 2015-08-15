@@ -181,7 +181,16 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C16-Greedy-Algorithms/16.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C16-Greedy-Algorithms/16.3.md"><font color="black">3</font></td>
 		</tr>
+		
+	<tr>
+	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part V: Advanced Data Structures</font></td></tr>
 
+	<tr>
+    	<td align="center">XVIII</td>
+		<td align="center"><a href="./C18-B-Trees/18.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C18-B-Trees/18.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C18-B-Trees/18.3.md"><font color="black">3</font></td>
+		</tr>
 
 	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VI: Graph Algorithms</font></td></tr>
