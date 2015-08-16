@@ -147,23 +147,10 @@ public:
             return false;
         }
         
-        if (bRoot->n == 1)//特殊情况处理
+        if (bRoot->n == 1 && bRoot->isLeaf)//特殊情况处理
         {
-            if (bRoot->isLeaf)
-            {
-                clear();
-                return true;
-            }
-            else
-            {
-                Node *pChild1 = bRoot->pChild[1];
-                Node *pChild2 = bRoot->pChild[2];
-                if (pChild1->n == t-1 && pChild2->n == t-1)
-                {
-                    mergeChild(bRoot, 1);
-                    bRoot = pChild1;
-                }
-            }
+            clear();
+            return true;
         }
         recursive_remove(bRoot, key);
         return true;
