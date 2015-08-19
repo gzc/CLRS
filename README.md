@@ -228,6 +228,10 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VII: Selected Topics</font></td></tr>
 	
+	<tr><td align="center">XXXI</td>
+		<td align="center"><a href="./C31-Number-Theoretic-Algorithms/31.1.md"><font color="black">1</font></td>
+		</tr>
+	
 	<tr>
     	<td align="center">XXXII</td>
 		<td align="center"><a href="./C32-String-Matching/32.1.md"><font color="black">1</font></td>
@@ -264,6 +268,8 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 [25.1.5](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-5)
 [25.2.3](./C25-All-Pairs-Shortest-Paths/25.2.md#exercises-252-3)
 [25.2.9](./C25-All-Pairs-Shortest-Paths/25.2.md#exercises-252-9)
+
+[31.1.11](./C31-Number-Theoretic-Algorithms/31.1.md#exercises-311-11)
 
 [32.2.4](./C32-String-Matching/32.2.md#exercises-322-4)
 [32.3.4](./C32-String-Matching/32.3.md#exercises-323-4)
