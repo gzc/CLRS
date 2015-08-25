@@ -191,6 +191,12 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C18-B-Trees/18.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C18-B-Trees/18.3.md"><font color="black">3</font></td>
 		</tr>
+		
+		<tr>
+    	<td align="center">XIX</td>
+		<td align="center"><a href="./C19-Binomial-Heaps/19.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C19-Binomial-Heaps/19.2.md"><font color="black">2</font></td>
+		</tr>
 
 	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VI: Graph Algorithms</font></td></tr>
@@ -230,6 +236,7 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 	
 	<tr><td align="center">XXXI</td>
 		<td align="center"><a href="./C31-Number-Theoretic-Algorithms/31.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C31-Number-Theoretic-Algorithms/31.2.md"><font color="black">2</font></td>
 		</tr>
 	
 	<tr>
@@ -270,6 +277,8 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 [25.2.9](./C25-All-Pairs-Shortest-Paths/25.2.md#exercises-252-9)
 
 [31.1.11](./C31-Number-Theoretic-Algorithms/31.1.md#exercises-311-11)
+[31.2.7](./C31-Number-Theoretic-Algorithms/31.2.md#exercises-312-7)
+[31.2.9](./C31-Number-Theoretic-Algorithms/31.2.md#exercises-312-9)
 
 [32.2.4](./C32-String-Matching/32.2.md#exercises-322-4)
 [32.3.4](./C32-String-Matching/32.3.md#exercises-323-4)
