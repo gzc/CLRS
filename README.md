@@ -250,6 +250,9 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<tr><td align="center">XXXIII</td>
 		<td align="center"><a href="./C33-Computational-Geometry/33.1.md"><font color="black">1</font></td>
 		</tr>
+		<tr><td align="center">XXXV</td>
+		<td align="center"><a href="./C35-Approximation-Algorithms/35.1.md"><font color="black">1</font></td>
+		</tr>
 
 
 </table>
