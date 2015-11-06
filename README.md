@@ -258,6 +258,39 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 </table>
 ***
 
+
+##Data Structure&algorithm implementation
+
+###BASIC
+* [heap](./C06-Heapsort/heap.cpp)
+* [priority_queue](./C06-Heapsort/p_queue.h)
+* [quicksort](./C07-Quicksort/quicksort.py)
+* [radixsort](./C08-Sorting-in-Linear-Time/exercise_code/radixSort.cpp)
+* [counting sort](./C08-Sorting-in-Linear-Time/exercise_code/in_place_counting_sort.py)
+* [kth finding](./C09-Medians-and-Order-Statistics/worst-case-linear-time.cpp)
+* [deque](./C10-Elementary-Data-Structures/exercise_code/deque.py)
+
+###TREE/ADVANCED
+* [BST](./C12-Binary-Search-Trees/BSTree.h)
+* [RBT](./C13-Red-Black-Trees/rbtree.cpp)
+* [Btree](./C18-B-Trees/btree)
+* [BinomialHeap](./C19-Binomial-Heaps/BinomialHeap.h)  [Driver](././C19-Binomial-Heaps/Main.cpp)
+
+###DYNAMIC/GREEDY
+* [Matrix chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
+* [Huffman](./C16-Greedy-Algorithms/huffman)
+
+###GRAPH
+* [Floyd-Warshall](./C25-All-Pairs-Shortest-Paths/Floyd_Warshall.cpp)
+
+###GEOMETRY
+* [LineIntersection](./C33-Computational-Geometry/twoline.cpp)
+
+###STRING
+* [BruteForce](./C32-String-Matching/BF.c)
+* [KMP](./C32-String-Matching/KMP.c)
+* [DFA](./C32-String-Matching/FA.c)
+
 #UNSOLVED
 
 [11.1.4](./C11-Hash-Tables/11.1.md#exercises-111-4)
