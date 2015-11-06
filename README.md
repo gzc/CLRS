@@ -197,6 +197,11 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<td align="center"><a href="./C19-Binomial-Heaps/19.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C19-Binomial-Heaps/19.2.md"><font color="black">2</font></td>
 		</tr>
+		
+		<tr>
+    	<td align="center">XXI</td>
+		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.1.md"><font color="black">1</font></td>
+		</tr>
 
 	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VI: Graph Algorithms</font></td></tr>
