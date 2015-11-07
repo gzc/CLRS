@@ -201,6 +201,8 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<tr>
     	<td align="center">XXI</td>
 		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.3.md"><font color="black">3</font></td>
 		</tr>
 
 	<tr>
@@ -278,8 +280,9 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 ###TREE/ADVANCED
 * [BST](./C12-Binary-Search-Trees/BSTree.h)
 * [RBT](./C13-Red-Black-Trees/rbtree.cpp)
-* [Btree](./C18-B-Trees/btree)
+* [Btree](./C18-B-Trees/btree.cpp)
 * [BinomialHeap](./C19-Binomial-Heaps/BinomialHeap.h)  [Driver](././C19-Binomial-Heaps/Main.cpp)
+* [UnionFind](./C21-Data-Structures-for-Disjoint-Sets/uf.cpp)
 
 ###DYNAMIC/GREEDY
 * [Matrix chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
