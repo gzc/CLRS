@@ -242,6 +242,7 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
     	<td align="center">XXVI</td>
 		<td align="center"><a href="./C26-Flow-networks/26.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C26-Flow-networks/26.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C26-Flow-networks/26.3.md"><font color="black">3</font></td>
 		</tr>
 		
 		<tr>
