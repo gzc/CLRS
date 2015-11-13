@@ -295,6 +295,7 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 * [Huffman](./C16-Greedy-Algorithms/huffman)
 
 ###GRAPH
+* [Maximum Flow](./C26-Flow-networks/maxflow)
 * [Floyd-Warshall](./C25-All-Pairs-Shortest-Paths/Floyd_Warshall.cpp)
 
 ###GEOMETRY
