@@ -1,14 +1,14 @@
-#Answers of CLRS.I need your help.
+# Solutions to CLRS.
+Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (CLRS)
 
-I cited some good answers in the Internet which are with detailed explanation in my repo. Please do not mind.
+## This repo needs your help.
+如果你感兴趣,可以完成没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork我的项目建个branch写完merge进这个repo。
 
-如果你感兴趣,可以完成我没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork我的项目建个branch写完merge给我~
+If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that is not completed, you could fork my project and issue a pull request to this repo. Appreciate your effort. 
 
-If you are interested in my project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that I haven't finished, you could fork my project and make a branch to finish it and pull request to me.Thanks very much.
+In order to speed up this project, we will ignore hard problems (for instance, problems in the very end of every chapter) and review them when finishing mediocre problems. Moreover, we will only focus sections that are interesting. You could also help to finish these hard peoblems.
 
-In order to speed up this project, I will ignore hard problems(for instance, problems in the end of every chapter) and review them when finishing mediocre problems. Moreover, I will also ignore some sections that seems not interesting. You could also help me finish these hard peoblems.
-
-If a problem is too easy to elaborate, I'll mark it as **straightforward** in order to speed up my progress.
+If a problem is too easy to elaborate, we'll mark it as **straightforward** in order to speed up the progress.
 
 ***
 
