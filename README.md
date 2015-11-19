@@ -4,9 +4,9 @@ Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, 
 ![](https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg)
 
 ## This repo needs your help.
-如果你感兴趣,可以完成没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork我的项目建个branch写完merge进这个repo。
+If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that is not completed, you could fork this project and issue a pull request to this repo. Appreciate your effort. 
 
-If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that is not completed, you could fork my project and issue a pull request to this repo. Appreciate your effort. 
+如果你感兴趣,可以完成没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork这个项目然后pull request进这个repo。
 
 In order to speed up this project, we will ignore hard problems (for instance, problems in the very end of every chapter) and review them when finishing mediocre problems. Moreover, we will only focus sections that are interesting. You could also help to finish these hard peoblems.
 
@@ -343,3 +343,5 @@ If a problem is too easy to elaborate, we'll mark it as **straightforward** in o
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
+
+<sub>**Disclaimer**: the solutions in this repository are crowdsourced work, and in any form it neither represents any opinion of nor affiliates to the authors of Introduction to Algorithms or the MIT press.<sub>
