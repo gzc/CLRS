@@ -1,5 +1,7 @@
 # Solutions to CLRS.
-Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (CLRS)
+Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (CLRS).
+
+![](https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg)
 
 ## This repo needs your help.
 如果你感兴趣,可以完成没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork我的项目建个branch写完merge进这个repo。
