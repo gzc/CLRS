@@ -319,7 +319,6 @@ If a problem is too easy to elaborate, we'll mark it as **straightforward** in o
 [22.4.4](./C22-Elementary-Graph-Algorithms/22.4.md#exercises-224-4)
 
 [24.1.5](./C24-Single-Source-Shortest-Paths/24.1.md#exercises-241-5)
-[24.3.5](./C24-Single-Source-Shortest-Paths/24.3.md#exercises-243-5)
 [24.4.4](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-4)
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
 [24.4.11](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-11)
