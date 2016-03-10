@@ -185,6 +185,11 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		</tr>
 		
 	<tr>
+    	<td align="center">XVII</td>
+		<td align="center"><a href="./C17-Amortized-Analysis/17.1.md"><font color="black">1</font></td>
+		</tr>
+		
+	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part V: Advanced Data Structures</font></td></tr>
 
 	<tr>
