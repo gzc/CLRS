@@ -6,7 +6,7 @@ def merge(items, p, q, r):
     R = items[q+1:r+1]
     i = j = 0
     k = p
-    inversions = 0;
+    inversions = 0
     while i < len(L) and j < len(R):
         if(L[i] < R[j]):
             items[k] = L[i]
@@ -23,7 +23,7 @@ def merge(items, p, q, r):
 
 
 def mergesort(items, p, r):
-    inversions = 0;
+    inversions = 0
     if(p < r):
         q = (p+r)/2
         inversions += mergesort(items, p, q)
