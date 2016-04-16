@@ -339,9 +339,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 [32.3.4](./C32-String-Matching/32.3.md#exercises-323-4)
 [32.4.6](./C32-String-Matching/32.4.md#exercises-324-6)
 
-[33.1.8](./C33-Computational-Geometry/33.1.md#exercises-331-8)
-
-
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
 
