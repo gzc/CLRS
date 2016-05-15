@@ -114,6 +114,7 @@ elements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
 
 **d.**
 [code](./exercise_code/inversions.py)
+
 [cppcode](./exercise code/inversions.cpp)
 
 ***
