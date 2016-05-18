@@ -283,13 +283,17 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 ##Data Structure&algorithm implementation
 
 ###BASIC
-* [heap](./C06-Heapsort/heap.cpp)
-* [priority_queue](./C06-Heapsort/p_queue.h)
-* [quicksort](./C07-Quicksort/quicksort.py)
-* [radixsort](./C08-Sorting-in-Linear-Time/exercise_code/radixSort.cpp)
-* [counting sort](./C08-Sorting-in-Linear-Time/exercise_code/in_place_counting_sort.py)
-* [kth finding](./C09-Medians-and-Order-Statistics/worst-case-linear-time.cpp)
-* [deque](./C10-Elementary-Data-Structures/exercise_code/deque.py)
+* [Heap](./C06-Heapsort/heap.cpp)
+* [Priority Queue](./C06-Heapsort/p_queue.h)
+* [Quicksort](./C07-Quicksort/quicksort.py)
+* [Radixsort](./C08-Sorting-in-Linear-Time/exercise_code/radixSort.cpp)
+* [Counting Sort](./C08-Sorting-in-Linear-Time/exercise_code/in_place_counting_sort.py)
+* [K-th Finding](./C09-Medians-and-Order-Statistics/worst-case-linear-time.cpp)
+* [Deque](./C10-Elementary-Data-Structures/exercise_code/deque.py)
+
+###DIVIDE and CONQUER
+* [Karatsuba](./other/Karatsuba)
+
 
 ###TREE/ADVANCED
 * [BST](./C12-Binary-Search-Trees/BSTree.h)
@@ -299,7 +303,7 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [UnionFind](./C21-Data-Structures-for-Disjoint-Sets/uf.cpp)
 
 ###DYNAMIC/GREEDY
-* [Matrix chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
+* [Matrix Chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
 * [Huffman](./C16-Greedy-Algorithms/huffman)
 
 ###GRAPH
