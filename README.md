@@ -1,14 +1,16 @@
-#Answers of CLRS.I need your help.
+# Solutions to CLRS.
+Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (CLRS).
 
-I cited some good answers in the Internet which are with detailed explanation in my repo. Please do not mind.
+![](https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg)
 
-如果你感兴趣,可以完成我没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork我的项目建个branch写完merge给我~
+## This repo needs your help.
+If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following list. Or if you are interested in certain chapters that have not been completed, you could fork this project and issue a pull request to this repo. Appreciate your efforts. 
 
-If you are interested in my project, you could complete problems which are marked **"UNSOLVED"** in the following. Or if you are interested in certain chapter that I haven't finished, you could fork my project and make a branch to finish it and pull request to me.Thanks very much.
+如果你感兴趣,可以完成没有完成的题(下面有个UNSOLVED列表),或者如果你对某章节感兴趣想要完成,可以fork这个项目然后pull request进这个repo。
 
-In order to speed up this project, I will ignore hard problems(for instance, problems in the end of every chapter) and review them when finishing mediocre problems. Moreover, I will also ignore some sections that seems not interesting. You could also help me finish these hard peoblems.
+In order to speed up this project, we will ignore any hard problems (for instance, problems in the very end of each chapter) and review them when finishing mediocre problems. Moreover, we will only focus on sections that are interesting. You could also help to finish these hard problems.
 
-If a problem is too easy to elaborate, I'll mark it as **straightforward** in order to speed up my progress.
+If a problem is too easy to solve, we'll mark it as **straightforward** in order to speed up the progress.
 
 ***
 
@@ -183,6 +185,11 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		</tr>
 		
 	<tr>
+    	<td align="center">XVII</td>
+		<td align="center"><a href="./C17-Amortized-Analysis/17.1.md"><font color="black">1</font></td>
+		</tr>
+		
+	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part V: Advanced Data Structures</font></td></tr>
 
 	<tr>
@@ -196,6 +203,13 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
     	<td align="center">XIX</td>
 		<td align="center"><a href="./C19-Binomial-Heaps/19.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C19-Binomial-Heaps/19.2.md"><font color="black">2</font></td>
+		</tr>
+		
+		<tr>
+    	<td align="center">XXI</td>
+		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.3.md"><font color="black">3</font></td>
 		</tr>
 
 	<tr>
@@ -232,6 +246,13 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		</tr>
 		
 		<tr>
+    	<td align="center">XXVI</td>
+		<td align="center"><a href="./C26-Flow-networks/26.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C26-Flow-networks/26.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C26-Flow-networks/26.3.md"><font color="black">3</font></td>
+		</tr>
+		
+		<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VII: Selected Topics</font></td></tr>
 	
 	<tr><td align="center">XXXI</td>
@@ -250,10 +271,52 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 		<tr><td align="center">XXXIII</td>
 		<td align="center"><a href="./C33-Computational-Geometry/33.1.md"><font color="black">1</font></td>
 		</tr>
+		<tr><td align="center">XXXV</td>
+		<td align="center"><a href="./C35-Approximation-Algorithms/35.1.md"><font color="black">1</font></td>
+		</tr>
 
 
 </table>
 ***
+
+
+##Data Structure&algorithm implementation
+
+###BASIC
+* [Heap](./C06-Heapsort/heap.cpp)
+* [Priority Queue](./C06-Heapsort/p_queue.h)
+* [Quicksort](./C07-Quicksort/quicksort.py)
+* [Radixsort](./C08-Sorting-in-Linear-Time/exercise_code/radixSort.cpp)
+* [Counting Sort](./C08-Sorting-in-Linear-Time/exercise_code/in_place_counting_sort.py)
+* [K-th Finding](./C09-Medians-and-Order-Statistics/worst-case-linear-time.cpp)
+* [Deque](./C10-Elementary-Data-Structures/exercise_code/deque.py)
+
+###DIVIDE and CONQUER
+* [Karatsuba](./other/Karatsuba)
+
+
+###TREE/ADVANCED
+* [BST](./C12-Binary-Search-Trees/BSTree.h)
+* [RBT](./C13-Red-Black-Trees/rbtree.cpp)
+* [Btree](./C18-B-Trees/btree.cpp)
+* [BinomialHeap](./C19-Binomial-Heaps/BinomialHeap.h)  [Driver](././C19-Binomial-Heaps/Main.cpp)
+* [UnionFind](./C21-Data-Structures-for-Disjoint-Sets/uf.cpp)
+
+###DYNAMIC/GREEDY
+* [Matrix Chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
+* [Huffman](./C16-Greedy-Algorithms/huffman)
+
+###GRAPH
+* [Maximum Flow](./C26-Flow-networks/maxflow)
+* [Floyd-Warshall](./C25-All-Pairs-Shortest-Paths/Floyd_Warshall.cpp)
+
+###GEOMETRY
+* [LineIntersection](./C33-Computational-Geometry/twoline.cpp)
+
+###STRING
+* [BruteForce](./C32-String-Matching/BF.c)
+* [KMP](./C32-String-Matching/KMP.c)
+* [DFA](./C32-String-Matching/FA.c)
 
 #UNSOLVED
 
@@ -262,10 +325,6 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 [11.3.6](./C11-Hash-Tables/11.3.md#exercises-113-6)
 [11.5.1](./C11-Hash-Tables/11.5.md#exercises-115-1)
 
-[22.4.4](./C22-Elementary-Graph-Algorithms/22.4.md#exercises-224-4)
-
-[24.1.5](./C24-Single-Source-Shortest-Paths/24.1.md#exercises-241-5)
-[24.3.5](./C24-Single-Source-Shortest-Paths/24.3.md#exercises-243-5)
 [24.4.4](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-4)
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
 [24.4.11](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-11)
@@ -284,8 +343,7 @@ If a problem is too easy to elaborate, I'll mark it as **straightforward** in or
 [32.3.4](./C32-String-Matching/32.3.md#exercises-323-4)
 [32.4.6](./C32-String-Matching/32.4.md#exercises-324-6)
 
-[33.1.8](./C33-Computational-Geometry/33.1.md#exercises-331-8)
-
-
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
+
+<sub>**Disclaimer**: the solutions in this repository are crowdsourced work, and in any form it neither represents any opinion of nor affiliates to the authors of Introduction to Algorithms or the MIT press.<sub>

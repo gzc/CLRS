@@ -1,10 +1,16 @@
 ### Problems 1 : Insertion sort on small arrays in merge sort
 ***
 Although merge sort runs in Θ(n lg n) worst-case time and insertion sort runs in Θ(n^2) worst- case time, the constant factors in insertion sort make it faster for small n. Thus, it makes sense to use insertion sort within merge sort when subproblems become sufficiently small. Consider a modification to merge sort in which n/k sublists of length k are sorted using insertion sort and then merged using the standard merging mechanism, where k is a value to be determined.
-a. Show that the n/k sublists, each of length k, can be sorted by insertion sort in Θ(nk) worst-case time.
-b. Show that the sublists can be merged in Θ(n lg (n/k) worst-case time.
-c. Given that the modified algorithm runs in Θ(nk + n lg (n/k)) worst-case time, what isthe largest asymptotic (Θnotation) value of k as a function of n for which the modifiedalgorithm has the same asymptotic running time as standard merge sort?
-d. How should k be chosen in practice?
+
+a. Show that the n/k sublists, each of length k, can be sorted by insertion sort in Θ(nk) worst-case time.
+
+b. Show that the sublists can be merged in Θ(n lg (n/k) worst-case time.
+
+c. Given that the modified algorithm runs in Θ(nk + n lg (n/k)) worst-case time, what is
+the largest asymptotic (Θnotation) value of k as a function of n for which the modified
+algorithm has the same asymptotic running time as standard merge sort?
+
+d. How should k be chosen in practice?
 
 ### `Answer`
 a. 总共有n/k个长度为k的列表，所以![](http://latex.codecogs.com/gif.latex?T\(n\) = n/k * \\Theta\(k^2\) = \\Theta\(nk\) )
@@ -77,9 +83,15 @@ a_ix^0 + \\sum_{k = 0}^{n-i-1}a_{k+i+1}x^{k+1} =
 Let A[1..n] be an array of n distinct numbers. If i < j and A[i] > A[j], then the pair (i, j) is called an inversion of A.
 
 a. List the five inversions of the array 2, 3, 8, 6, 1.
-b. What array with elements from the set {1, 2, . . . , n} has the most inversions? Howmany does it have?
-c. What is the relationship between the running time of insertion sort and the number ofinversions in the input array? Justify your answer.
-d. Give an algorithm that determines the number of inversions in any permutation on nelements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
+
+b. What array with elements from the set {1, 2, . . . , n} has the most inversions? How
+many does it have?
+
+c. What is the relationship between the running time of insertion sort and the number of
+inversions in the input array? Justify your answer.
+
+d. Give an algorithm that determines the number of inversions in any permutation on n
+elements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
 
 ### `Answer`
 **a.**
@@ -92,8 +104,18 @@ a. List the five inversions of the array 2, 3, 8, 6, 1.
 **c.**
 插入排序中移动元素的次数就是逆序数的对数.
 
+设第i(1<=i<=n)个元素和它前面的元素构成逆序数的对数为k_i，k_1 + k_2 +...+ k_n = k
+
+则插入排序的运行时间为Θ(n + k)
+
+这是因为对于第i个元素，比较次数为初始的1次加上由于逆序导致的比较成功从而多出的k_i次
+
+（对于第1个元素略有不同，但是影响的次数为常数，不影响渐进的阶）
+
 **d.**
 [code](./exercise_code/inversions.py)
+
+[cppcode](./exercise code/inversions.cpp)
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.

@@ -3,9 +3,9 @@
 
 def binarysearch(items, v):
     low = 0
-    high = len(items)-1;
+    high = len(items)-1
     while low <= high:
-        mid = (low+high)/2;
+        mid = (low+high)/2
         if(items[mid] == v):
             return mid
         elif(items[mid] < v):
