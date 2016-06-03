@@ -3,6 +3,26 @@ Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, 
 
 ![](https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg)
 
+## Contributor
+1. [Soyn](https://github.com/Soyn)
+2. [idf](https://github.com/idf)
+3. [W4anD0eR96](https://github.com/W4anD0eR96)
+4. [knight42](https://github.com/knight42)
+5. [ajinkyakolhe112](https://github.com/ajinkyakolhe112)
+6. [an-yun](https://github.com/an-yun)
+7. [y1y](https://github.com/y1y)
+8. [RepapLataf](https://github.com/RepapLataf)
+9. [Ghost---Shadow](https://github.com/Ghost---Shadow)
+10. [wonjunetai](https://github.com/wonjunetai)
+11. [suensky](https://github.com/suensky)
+12. [xwu64](https://github.com/xwu64)
+13. [ryuxin](https://github.com/ryuxin)
+14. [Puriney](https://github.com/Puriney)
+15. [wild-flame](https://github.com/wild-flame)
+16. [zhangysh1995](https://github.com/zhangysh1995)
+17. [DarthUjj](https://github.com/DarthUjj)
+
+
 ## This repo needs your help.
 If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following list. Or if you are interested in certain chapters that have not been completed, you could fork this project and issue a pull request to this repo. Appreciate your efforts. 
 
