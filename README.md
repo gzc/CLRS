@@ -21,6 +21,7 @@ Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, 
 15. [wild-flame](https://github.com/wild-flame)
 16. [zhangysh1995](https://github.com/zhangysh1995)
 17. [DarthUjj](https://github.com/DarthUjj)
+18. [VMatrix1900](https://github.com/VMatrix1900)
 
 
 ## This repo needs your help.
