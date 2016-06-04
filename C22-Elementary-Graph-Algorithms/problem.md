@@ -1,6 +1,12 @@
 ### Problems 3 : Euler tour
 ***
-An Euler tour of a connected, directed graph G = (V, E) is a cycle that traverses each edge of G exactly once, although it may visit a vertex more than once.a. Show that G has an Euler tour if and only if in-degree (v) = out-degree (v) for each vertex v in V.b. Describe an O(E)-time algorithm to find an Euler tour of G if one exists. (Hint: Merge edge-disjoint cycles.)
+An Euler tour of a connected, directed graph G = (V, E) is a cycle that traverses each edge of G exactly once, although it may visit a vertex more than once.
+
+a. Show that G has an Euler tour if and only if in-degree (v) = out-degree (v) for each vertex v in V.
+
+b. Describe an O(E)-time algorithm to find an Euler tour of G if one exists. (Hint: Merge edge-disjoint cycles.)
+
+
 ### `Answer`
 **a.**
 
@@ -15,6 +21,18 @@ Let G = (V, E) be a directed graph in which each vertex u in V is labeled with a
 
 ### `Answer`
 
+    For every vertex v in G
+      Mark v undiscovered
+    For every undiscovered vertex v in G, starting with the lowest L-value
+      R(v) = L(v)
+      Mark v discovered.
+      Perform Reverse-DFS from v.
+        For every undiscovered vertex u we encounter on this DFS:
+          R(u) = R(v)
+          Mark u discovered. 
+
+
+[reference](http://www.fongboy.com/classes/cs180/hw7-sol.pdf)
 
 
 ***
