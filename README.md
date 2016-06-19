@@ -347,7 +347,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 [11.3.6](./C11-Hash-Tables/11.3.md#exercises-113-6)
 [11.5.1](./C11-Hash-Tables/11.5.md#exercises-115-1)
 
-[24.4.4](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-4)
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
 [24.4.11](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-11)
 [24.4.12](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-12)
