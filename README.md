@@ -348,8 +348,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 [11.5.1](./C11-Hash-Tables/11.5.md#exercises-115-1)
 
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
-[24.4.11](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-11)
-[24.4.12](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-12)
 
 [25.1.4](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-4)
 [25.1.5](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-5)
