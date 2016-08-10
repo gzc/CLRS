@@ -23,6 +23,8 @@ Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, 
 17. [DarthUjj](https://github.com/DarthUjj)
 18. [VMatrix1900](https://github.com/VMatrix1900)
 19. [Jingru](https://github.com/Jingru)
+20. [prasook-jain](https://github.com/prasook-jain)
+21. [Mundhey](https://github.com/Mundhey)
 
 
 ## This repo needs your help.
@@ -350,8 +352,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
 
 [25.1.4](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-4)
-[25.2.3](./C25-All-Pairs-Shortest-Paths/25.2.md#exercises-252-3)
-[25.2.9](./C25-All-Pairs-Shortest-Paths/25.2.md#exercises-252-9)
 
 [31.1.11](./C31-Number-Theoretic-Algorithms/31.1.md#exercises-311-11)
 [31.2.7](./C31-Number-Theoretic-Algorithms/31.2.md#exercises-312-7)
