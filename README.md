@@ -344,11 +344,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 
 #UNSOLVED
 
-[11.1.4](./C11-Hash-Tables/11.1.md#exercises-111-4)
-[11.3.5](./C11-Hash-Tables/11.3.md#exercises-113-5)
-[11.3.6](./C11-Hash-Tables/11.3.md#exercises-113-6)
-[11.5.1](./C11-Hash-Tables/11.5.md#exercises-115-1)
-
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
 
 [25.1.4](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-4)
