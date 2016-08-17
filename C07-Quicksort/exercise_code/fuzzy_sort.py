@@ -31,12 +31,12 @@ def partition(items, p, r):
 
 
     t = s + 1
-    while t <= r:
+    while t <= i:
         if intersects(items[i], intersection):
             items[t], items[i] = items[i], items[t]
             t += 1
         else:
-            r -= 1
+            i -= 1
 
     return (s, t)
 
