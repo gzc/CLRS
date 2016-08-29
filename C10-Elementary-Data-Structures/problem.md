@@ -74,7 +74,74 @@ A **mergeable heap** supports the following operations: MAKE-HEAP (which creates
 
 ### `Answer`
 
+Actually we need not imitate the implementation of min-heap by array. And since we do not have `A->last`, it is not a big issue if the linked list is singly linked or doubly linked.
+
+For unsorted linked list,
+
+```python
+# Running time: O(1)
+MAKE-HEAP()
+	return MAKE-LINKED-LIST()
+
+# Running time: O(1)
+INSERT(A, x)
+	LIST-INSERT'(A->L, x)
+
+# Running time: O(n)
+# We need iterate the whole linked list.
+MINIMUM(A)
+	return LIST-MINIMUM(A->L)
+
+# Running time: O(n)
+EXTRACT-MIN(A)
+	x = LIST-MINIMUM(A->L)
+	LIST-DELETE(L, x)
+	return x
+
+# Running time: O(n)
+UNION(A, B)
+	# We need O(n) to get A.last
+	A.last->next = B.first
+```
+
+For sorted linked list,
+
+```python
+# Running time: O(1)
+MAKE-HEAP()
+	return MAKE-LINKED-LIST()
+
+# Running time: O(n)
+INSERT(A, x)
+	# We need find the position
+	LIST-INSERT'(A->L, x)
+
+# Running time: O(1)
+MINIMUM(A)
+	return A->L.first
+
+# Running time: O(1)
+EXTRACT-MIN(A)
+	x = A->L.first
+	LIST-DELETE(A->L, A->L.first)
+	return x
+
+# Running time: O(n)
+# Use algorithm like `MERGE` in merge sort.
+UNION(A, B)
+	Merge(A, B)
+```
+
+In conclusion, we find
+
+| Method | unsorted | sorted |
+| ------ | -------- | ------ |
+| `MAKE-HEAP()` | O(1) | O(1) |
+| `INSERT(A, x)` | O(1) | O(n) |
+| `MINIMUM(A)` | O(n) | O(1) |
+| `EXTRACT-MIN(A)` | O(n) | O(1) |
+| `UNION(A, B)` | O(n) | O(n) |
+
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
-
