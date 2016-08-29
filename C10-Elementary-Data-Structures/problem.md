@@ -106,7 +106,7 @@ For unsorted linked list,
 	````
 	EXTRACT-MIN(A)
 		x = LIST-MINIMUM(A->L)
-		LIST-DELETE(L, x)
+		LIST-DELETE(A->L, x)
 		return x
 	````
 
