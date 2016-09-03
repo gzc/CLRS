@@ -31,6 +31,7 @@ Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, 
 25. [codemukul95](https://github.com/codemukul95)
 26. [JasonQSY](https://github.com/JasonQSY)
 27. [imbrobits](https://github.com/imbrobits)
+28. [zhanglanqing](https://github.com/zhanglanqing)
 
 
 ## This repo needs your help.
