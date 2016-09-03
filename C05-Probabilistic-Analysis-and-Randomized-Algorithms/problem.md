@@ -49,10 +49,10 @@ Thus problem examines three algorithms for searching for a value x in an unsorte
 		return false
 		
 **b.**
-就是伯努力分布～n
+就是几何分布～n
 
 **c.**
-还是伯努力分布～n/k
+还是几何分布～n/k
 
 **d.**
 Section5.4.2,在每个盒子里至少有一个球前，要投多少个球.
