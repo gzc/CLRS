@@ -1,33 +1,30 @@
 #include<iostream>
+#include<vector>
+
 using namespace std;
 
 class UF {
     
 private:
-    int *parent;
-    int *rank;
+    vector<int> parent;
+    vector<int> rank;
     int count;
     int N;
     
     bool validate(int p) {
-        return ( p > 0 && p <= N);
+        return (p > 0 && p <= N);
     }
     
 public:
     
-    UF(int N) {
-        parent = new int[N];
-        rank = new int[N];
-        this->N = N;
-        count = N;
-        for(int i = 0;i < N;i++) {
+    UF(int N) : parent(N), rank(N, 0), N(N), count(N) {
+        for (int i = 0; i < N; i++) {
             parent[i] = i;
-            rank[i] = 0;
         }
     }
     
     int find(int p) {
-        if(!validate(p)) return -1;
+        if (!validate(p)) return -1;
         while (p != parent[p]) {
             parent[p] = parent[parent[p]];    // path compression by halving
             p = parent[p];
@@ -49,7 +46,7 @@ public:
         if (rootP == rootQ) return;
         
         // make root of smaller rank point to root of larger rank
-        if      (rank[rootP] < rank[rootQ]) parent[rootP] = rootQ;
+        if (rank[rootP] < rank[rootQ]) parent[rootP] = rootQ;
         else if (rank[rootP] > rank[rootQ]) parent[rootQ] = rootP;
         else {
             parent[rootQ] = rootP;
@@ -58,11 +55,7 @@ public:
         count--;
     }
     
-    ~UF() {
-        delete []parent;
-        delete []rank;
-    }
-    
+    ~UF() {}
 };
 
 int main() {
