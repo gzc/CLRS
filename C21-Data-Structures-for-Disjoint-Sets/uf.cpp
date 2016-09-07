@@ -32,7 +32,7 @@ public:
         return p;
     }
     
-    int getCount() {
+    int getCount() const {
         return count;
     }
     
