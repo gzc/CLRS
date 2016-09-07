@@ -320,7 +320,7 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [Radixsort](./C08-Sorting-in-Linear-Time/exercise_code/radixSort.cpp)
 * [Counting Sort](./C08-Sorting-in-Linear-Time/exercise_code/in_place_counting_sort.py)
 * [K-th Finding](./C09-Medians-and-Order-Statistics/worst-case-linear-time.cpp)
-* [Deque](./C10-Elementary-Data-Structures/exercise_code/deque.py)
+* [Deque(py)](./C10-Elementary-Data-Structures/exercise_code/deque.py) [Deque(c++)](./C10-Elementary-Data-Structures/exercise_code/deque.cpp)
 
 ###DIVIDE and CONQUER
 * [Karatsuba](./other/Karatsuba)
