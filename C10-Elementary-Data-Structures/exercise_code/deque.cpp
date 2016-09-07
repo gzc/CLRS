@@ -4,10 +4,11 @@
 
 using namespace std;
 
+template <class T>
 class Deque {
     
 private:
-    vector<int> data_;
+    vector<T> data_;
     int size_;
     int head_;
     int tail_;
@@ -15,15 +16,15 @@ private:
     
 public:
     
-    Deque(int size) : size_(0), head_(0), tail_(size-1), capacity_(size), data_(size, 0) {}
+    Deque(int size) : size_(0), head_(0), tail_(size-1), capacity_(size), data_(size) {}
     
-    void push_front(int v) {
+    void push_front(T v) {
         assert(head_ <= tail_);
         data_[head_++] = v;
         size_++;
     }
     
-    void push_back(int v) {
+    void push_back(T v) {
         assert(head_ <= tail_);
         data_[tail_--] = v;
         size_++;
@@ -41,12 +42,12 @@ public:
         size_--;
     }
     
-    int front() const { 
+    T front() const { 
         assert(head_ > 0);
         return data_[head_-1];
     }
     
-    int back() const {
+    T back() const {
         assert(tail_ < capacity_-1);
         return data_[tail_+1];
     }
@@ -60,7 +61,7 @@ public:
 };
 
 int main() {
-    Deque mydeque(3);
+    Deque<int> mydeque(3);
     mydeque.push_front(1);
     mydeque.push_back(3);
     cout << mydeque.front() << " " << mydeque.back() << endl;
