@@ -1,5 +1,5 @@
 # Solutions to CLRS.
-Solutions to *Introduction Introduction to Algorithms* by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (CLRS).
+Solutions to *Introduction to Algorithms* by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (CLRS).
 
 ![](https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg)
 
