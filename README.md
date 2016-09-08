@@ -33,6 +33,7 @@ Solutions to *Introduction to Algorithms* by Charles E. Leiserson, Clifford Stei
 27. [imbrobits](https://github.com/imbrobits)
 28. [zhanglanqing](https://github.com/zhanglanqing)
 
+If I miss your name here, please pull a request to me to fix.
 
 ## This repo needs your help.
 If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following list. Or if you are interested in certain chapters that have not been completed, you could fork this project and issue a pull request to this repo. Appreciate your efforts. 
