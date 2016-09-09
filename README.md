@@ -333,6 +333,7 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [Btree](./C18-B-Trees/btree.cpp)
 * [BinomialHeap](./C19-Binomial-Heaps/BinomialHeap.h)  [Driver](././C19-Binomial-Heaps/Main.cpp)
 * [UnionFind](./C21-Data-Structures-for-Disjoint-Sets/uf.cpp)
+* [SegmentTree](./other/segmentTree.cpp)
 
 ###DYNAMIC/GREEDY
 * [Matrix Chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
