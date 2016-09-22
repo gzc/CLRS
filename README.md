@@ -341,6 +341,7 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [Huffman](./C16-Greedy-Algorithms/huffman)
 
 ###GRAPH
+* [Kosaraju's Algorithm ( strongly connected components )](./C22-Elementary-Graph-Algorithms/elementary_graph_algo.py#L70)
 * [Maximum Flow](./C26-Flow-networks/maxflow)
 * [Floyd-Warshall](./C25-All-Pairs-Shortest-Paths/Floyd_Warshall.cpp)
 
