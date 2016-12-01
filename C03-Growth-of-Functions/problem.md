@@ -21,7 +21,20 @@ A | B | O | o | Ω | ω | Θ
 ![](http://latex.codecogs.com/gif.latex?n^\\lg{c}) | ![](http://latex.codecogs.com/gif.latex?c^\\lg{n}) | yes | no | yes | no | yes
 ![](http://latex.codecogs.com/gif.latex?\\lg{\(n!\)}) | ![](http://latex.codecogs.com/gif.latex?\\lg{\(n^n\)}) | yes | no | yes | no | yes
 
+For this problem, some people point out that
 
+for 0 < epsilon < 1,
+
+lg^k n > n^epsilon
+
+and for epsilon >= 1,
+
+lg^k n) < n^epsilon
+
+Therefore, the correct answer is
+YES YES YES YES YES
+
+[issue 103](https://github.com/gzc/CLRS/issues/103)
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
