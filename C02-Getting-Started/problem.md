@@ -110,9 +110,9 @@ elements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
 （对于第1个元素略有不同，但是影响的次数为常数，不影响渐进的阶）
 
 **d.**
-[code](./exercise_code/inversions.py)
+[PythonCode](./exercise_code/inversions.py)
 
-[cppcode](./exercise code/inversions.cpp)
+[CppCode](./exercise_code/inversions.cpp)
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
