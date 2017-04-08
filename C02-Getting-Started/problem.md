@@ -13,7 +13,7 @@ algorithm has the same asymptotic running time as standard merge sort?
 d. How should k be chosen in practice?
 
 ### `Answer`
-a. 总共有n/k个长度为k的列表，所以![](http://latex.codecogs.com/gif.latex?T\(n\) = n/k * \\Theta\(k^2\) = \\Theta\(nk\) )
+a. 总共有n/k个长度为k的列表，所以![](http://latex.codecogs.com/gif.latex?T\(n\)=n/k*\\Theta\(k^2\)=\\Theta\(nk\))
 
 b. 因为现在的层数为lg(n/k),所以是Θ(n lg (n/k))
 
@@ -66,13 +66,10 @@ Naive-Poly-Eval:
 
 **Maintenance:**根据循环不变式，第i次迭代结束有
 
-![](http://latex.codecogs.com/gif.latex? y = a_i + x\\sum_{k = 0}^{n-\(i+1\)}a_{k+i+1}x^k = 
-a_ix^0 + \\sum_{k = 0}^{n-i-1}a_{k+i+1}x^{k+1} =
-\\sum_{k = -1}^{n-i-1}a_{k+i+1}x^{k+1} =
-\\sum_{k = 0}^{n-i}a_{k+i}x^k   )
+![](http://latex.codecogs.com/gif.latex?y=a_i+x\\sum_{k=0}^{n-\(i+1\)}a_{k+i+1}x^k=a_ix^0+\\sum_{k=0}^{n-i-1}a_{k+i+1}x^{k+1}=\\sum_{k=-1}^{n-i-1}a_{k+i+1}x^{k+1}=\\sum_{k=0}^{n-i}a_{k+i}x^k)
 
 **Termination:**循环结束时 i = -1, 将i = 0代入
-![](http://latex.codecogs.com/gif.latex? y = \\sum_{k = 0}^{n}a_{k}x^k)
+![](http://latex.codecogs.com/gif.latex?y=sum_{k=0}^{n}a_{k}x^k)
 
 **d.**
 前面已经证明了循环不变式，结论自然是成立的.
@@ -113,9 +110,10 @@ elements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
 （对于第1个元素略有不同，但是影响的次数为常数，不影响渐进的阶）
 
 **d.**
-[code](./exercise_code/inversions.py)
 
-[cppcode](./exercise code/inversions.cpp)
+[PythonCode](./exercise_code/inversions.py)
+
+[CppCode](./exercise_code/inversions.cpp)
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
