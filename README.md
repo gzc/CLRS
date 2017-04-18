@@ -313,9 +313,9 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 ***
 
 
-##Data Structure&algorithm implementation
+## Data Structure&algorithm implementation
 
-###BASIC
+### BASIC
 * [Heap](./C06-Heapsort/heap.cpp)
 * [Priority Queue](./C06-Heapsort/p_queue.h)
 * [Quicksort](./C07-Quicksort/quicksort.py)
@@ -324,11 +324,11 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [K-th Finding](./C09-Medians-and-Order-Statistics/worst-case-linear-time.cpp)
 * [Deque(py)](./C10-Elementary-Data-Structures/exercise_code/deque.py) [Deque(c++)](./C10-Elementary-Data-Structures/exercise_code/deque.cpp)
 
-###DIVIDE and CONQUER
+### DIVIDE and CONQUER
 * [Karatsuba](./other/Karatsuba)
 
 
-###TREE/ADVANCED
+### TREE/ADVANCED
 * [BST](./C12-Binary-Search-Trees/BSTree.h)
 * [RBT](./C13-Red-Black-Trees/rbtree.cpp)
 * [Btree](./C18-B-Trees/btree.cpp)
@@ -336,26 +336,26 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [UnionFind](./C21-Data-Structures-for-Disjoint-Sets/uf.cpp)
 * [SegmentTree](./other/segmentTree.cpp)
 
-###DYNAMIC/GREEDY
+### DYNAMIC/GREEDY
 * [Matrix Chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
 * [Huffman](./C16-Greedy-Algorithms/huffman)
 
-###GRAPH
+### GRAPH
 * [Kosaraju's Algorithm ( strongly connected components )](./C22-Elementary-Graph-Algorithms/elementary_graph_algo.py#L70)
 * [Maximum Flow](./C26-Flow-networks/maxflow)
 * [Floyd-Warshall](./C25-All-Pairs-Shortest-Paths/Floyd_Warshall.cpp)
 
-###GEOMETRY
+### GEOMETRY
 * [LineIntersection](./C33-Computational-Geometry/twoline.cpp)
 * Convex Hull
   * [Graham Scan](./C33-Computational-Geometry/Graham_Scan.py)
 
-###STRING
+### STRING
 * [BruteForce](./C32-String-Matching/BF.c)
 * [KMP](./C32-String-Matching/KMP.c)
 * [DFA](./C32-String-Matching/FA.c)
 
-#UNSOLVED
+# UNSOLVED
 
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
 

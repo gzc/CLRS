@@ -1,7 +1,12 @@
 ### Problems 1 : Largest i numbers in sorted order
 ***
-Given a set of *n* numbers, we wish to find the *i* largest in sorted order using a comparison- based algorithm. Find the algorithm that implements each of the following methods with the best asymptotic worst-case running time, and analyze the running times of the algorithms in terms of *n* and *i*.
-a. Sort the numbers, and list the *i* largest.b. Build a max-priority queue from the numbers, and call EXTRACT-MAX *i* times.c. Use an order-statistic algorithm to find the *i*th largest number, partition around that number, and sort the *i* largest numbers.
+
+Given a set of *n* numbers, we wish to find the *i* largest in sorted order using a comparison- based algorithm. Find the algorithm that implements each of the following methods with the best asymptotic worst-case running time, and analyze the running times of the algorithms in terms of *n* and *i*.
+
+
+a. Sort the numbers, and list the *i* largest.
+b. Build a max-priority queue from the numbers, and call EXTRACT-MAX *i* times.
+c. Use an order-statistic algorithm to find the *i*th largest number, partition around that number, and sort the *i* largest numbers.
 
 ### `Answer`
 a和b的代码在这里.[code](./problems/i-largest.py).
@@ -25,7 +30,8 @@ and
 ![](http://latex.codecogs.com/gif.latex?\\sum_{x_i > x_k}w_i \\le \\frac{1}{2})
 
 a. Argue that the median of x1, x2, ..., xn is the weighted median of the xi with weights wi = 1/n for i = 1,2, ..., n.
-b. Show how to compute the weighted median of n elements in O(n lg n) worst-case time using sorting.
+
+b. Show how to compute the weighted median of n elements in O(n lg n) worst-case time using sorting.
 
 c. Show how to compute the weighted median in Θ(n) worst-case time using a linear- time median algorithm such as SELECT from Section 9.3.
 
@@ -33,8 +39,11 @@ The **post-office location problem** is defined as follows. We are given *n* poi
 
 ![](http://latex.codecogs.com/gif.latex?\\sum_{i = 1}^{n}w_id\(p,p_i\)
 )
-where *d*(a, b) is the distance between points a and b.d. Argue that the weighted median is a best solution for the 1-dimensional post-office location problem, in which points are simply real numbers and the distance between points a and b is *d*(a, b) = |a - b|.
-e. Find the best solution for the 2-dimensional post-office location problem, in which the points are (x, y) coordinate pairs and the distance between points a = (x1, y1) and b = (x2, y2) is the **Manhattan distance** given by d(a, b) = |x1 - x2| + |y1 - y2|.
+where *d*(a, b) is the distance between points a and b.
+
+d. Argue that the weighted median is a best solution for the 1-dimensional post-office location problem, in which points are simply real numbers and the distance between points a and b is *d*(a, b) = |a - b|.
+
+e. Find the best solution for the 2-dimensional post-office location problem, in which the points are (x, y) coordinate pairs and the distance between points a = (x1, y1) and b = (x2, y2) is the **Manhattan distance** given by d(a, b) = |x1 - x2| + |y1 - y2|.
 
 
 ### `Answer`
@@ -61,7 +70,8 @@ disjoint pairwise comparisons, and recurse on the set containing the smaller ele
 b. Show that, if i < n/2, then Ui(n) = n + O(T (2i) lg(n/i)).
 
 c. Show that if i is a constant less than n/2, then Ui(n) = n + O(lg n).
-d. Show that if *i* = n/k for k≥2,then Ui(n) = n+O(T(2n/k)lgk).
+
+d. Show that if *i* = n/k for k≥2,then Ui(n) = n+O(T(2n/k)lgk).
 
 ### `Answer`
 a. 
@@ -90,4 +100,4 @@ d. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\
 
 
 ***
-Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
+Follow [@louis1992](https://github.com/gzc) on github to help finish this task
