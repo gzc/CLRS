@@ -1,14 +1,25 @@
 ### Problems 1 : Longest-probe bound for hashing
 ***
 A hash table of size m is used to store n items, with n ≤ m/2. Open addressing is used for collision resolution.
-**a.**Assuming uniform hashing, show that for i=1,2,…,n, the probability is at most 2^−k that the ith insertion requires strictly more than k probes.
-**b.**Show that for i=1,2,…,n, the probability is O(1/n^2) that the ith insertion requires more than 2lgn probes.
-Let the random variable Xi denote the number of probes required by the ith insertion. You have shown in part (b) that 
-![](http://latex.codecogs.com/gif.latex?\\Pr\\{X_i > 2\\lg{n}\\} =
-O\(1/n^2\) ). Let the random variable 
-![](http://latex.codecogs.com/gif.latex?X = max_{1 \\le i \\le n}X_i)denote the maximum number of probes required by any of the n insertions.
-**c.**Show that Pr{X > 2lgn}=O(1/n).
-**d.**Show that the expected length E[X] of the longest probe sequence is O(lgn).
+
+**a.**Assuming uniform hashing, show that for i=1,2,…,n, the probability is at most 2^−k that the ith insertion requires strictly more than k probes.
+
+
+**b.**Show that for i=1,2,…,n, the probability is O(1/n^2) that the ith insertion requires more than 2lgn probes.
+
+Let the random variable Xi denote the number of probes required by the ith insertion. You have shown in part (b) that 
+![](http://latex.codecogs.com/gif.latex?
+\\Pr\\{X_i > 2\\lg{n}\\} =
+O\(1/n^2\) )
+. Let the random variable 
+![](http://latex.codecogs.com/gif.latex?
+X = max_{1 \\le i \\le n}X_i)
+denote the maximum number of probes required by any of the n insertions.
+
+**c.**Show that Pr{X > 2lgn}=O(1/n).
+
+**d.**Show that the expected length E[X] of the longest probe sequence is O(lgn).
+
 ### `Answer`
 **a.**
 
@@ -40,7 +51,8 @@ Suppose that we have a hash table with n slots, with collisions resolved by chai
 Argue that the probability Qk that exactly k keys hash to a particular slot is given by
 
 ![](http://latex.codecogs.com/gif.latex? Q_k = \(\\frac{1}{n}^k \) \(1-\\frac{1}{n}\)^{n-k} C_k^n)
-
+
+
 ### `Answer`
 
 

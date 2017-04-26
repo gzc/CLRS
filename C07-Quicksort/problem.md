@@ -2,7 +2,8 @@
 ***
 The version of PARTITION given in this chapter is not the original partitioning algorithm. Here is the original partition algorithm, which is due to T. Hoare:
 
-	HOARE-PARTITION(A, p, r):		x <- A[p]
+	HOARE-PARTITION(A, p, r):
+		x <- A[p]
 		i <- p - 1
 		j <- r + 1
 		while TRUE:
@@ -20,10 +21,17 @@ The version of PARTITION given in this chapter is not the original partitioning 
 The next three questions ask you to give a careful argument that the procedure HOARE- PARTITION is correct. Prove the following:
 
 **b.** The indices i and j are such that we never access an element of A outside the subarray A[p...r].
-**c.** When HOARE-PARTITION terminates, it returns a value j such that p ≤ j < r.
-**d.** Every element of A[p...j] is less than or equal to every element of A[j+1...r] whenHOARE-PARTITION terminates.
-The PARTITION procedure in Section 7.1 separates the pivot value (originally in A[r]) from the two partitions it forms. The HOARE-PARTITION procedure, on the other hand, always places the pivot value (originally in A[p]) into one of the two partitions A[p...j] and A[j + 1...r]. Since p ≤ j < r, this split is always nontrivial.
-**e.** Rewrite the QUICKSORT procedure to use HOARE-PARTITION.
+
+**c.** When HOARE-PARTITION terminates, it returns a value j such that p ≤ j < r.
+
+**d.** Every element of A[p...j] is less than or equal to every element of A[j+1...r] when
+HOARE-PARTITION terminates.
+
+The PARTITION procedure in Section 7.1 separates the pivot value (originally in A[r]) from the two partitions it forms. The HOARE-PARTITION procedure, on the other hand, always places the pivot value (originally in A[p]) into one of the two partitions A[p...j] and A[j + 1...r]. Since p ≤ j < r, this split is always nontrivial.
+
+**e.** Rewrite the QUICKSORT procedure to use HOARE-PARTITION.
+
+
 ### `Answer`
 **a.**
 
@@ -49,10 +57,15 @@ j至少会减2次. 若第一次进入while，j只减了1次，那么会做一次
 ### Problems 2 : Alternative quicksort analysis
 ***
 An alternative analysis of the running time of randomized quicksort focuses on the expected running time of each individual recursive call to QUICKSORT, rather than on the number of comparisons performed.
-**a.** Argue that, given an array of size n, the probability that any particular element is chosen as the pivot is 1/n. Use this to define indicator random variables Xi = I{ith smallest element is chosen as the pivot}. What is E [Xi]?
-**b.** Let T (n) be a random variable denoting the running time of quicksort on an array of size n. Argue that
-![](http://latex.codecogs.com/gif.latex?E[T\(n\)] = E\\bigg[\\sum_{q=1}^nX_q\(T\(q-1\) + T\(n-q\) + \\Theta\(n\)\)\\bigg] )
-**c.**Show that equation (7.5) simplifies to
+
+**a.** Argue that, given an array of size n, the probability that any particular element is chosen as the pivot is 1/n. Use this to define indicator random variables Xi = I{ith smallest element is chosen as the pivot}. What is E [Xi]?
+
+**b.** Let T (n) be a random variable denoting the running time of quicksort on an array of size n. Argue that
+![](http://latex.codecogs.com/gif.latex?
+E[T\(n\)] = E\\bigg[\\sum_{q=1}^nX_q\(T\(q-1\) + T\(n-q\) + \\Theta\(n\)\)\\bigg] )
+
+**c.**
+Show that equation (7.5) simplifies to
 
 ![](http://latex.codecogs.com/gif.latex?
 E[T\(n\)] = \\frac{2}{n}\\sum_{q=2}^{n-1}E[T\(q\)] + \\Theta\(n\) )
@@ -65,11 +78,17 @@ Show that
 
 **e.**
 
-Using the bound from equation (7.7), show that the recurrence in equation (7.6) hasthe solution E [T (n)] = Θ(n lg n). (Hint: Show, by substitution, that E[T (n)] ≤ an log n - bn for some positive constants a and b.)
+Using the bound from equation (7.7), show that the recurrence in equation (7.6) has
+the solution E [T (n)] = Θ(n lg n). (Hint: Show, by substitution, that E[T (n)] ≤ an log n - bn for some positive constants a and b.)
 
-### `Answer`**a.** 
-E[Xi]=1/n.
-**b.**
+
+### `Answer`
+**a.** 
+
+E[Xi]=1/n.
+
+
+**b.**
 
 这个算式的本质和之前分析快速排序的算式是一样的.
 
@@ -119,8 +138,11 @@ Professors Howard, Fine, and Howard have proposed the following "elegant" sortin
 		STOOGE-SORT(A, i, j-k)
 		
 a. Argue that, if n = length[A], then STOOGE-SORT(A, 1, length[A]) correctly sorts the input array A[1...n].
-b. Give a recurrence for the worst-case running time of STOOGE-SORT and a tight asymptotic (Θ-notation) bound on the worst-case running time.
-c. Compare the worst-case running time of STOOGE-SORT with that of insertion sort, merge sort, heapsort, and quicksort. Do the professors deserve tenure?	
+
+b. Give a recurrence for the worst-case running time of STOOGE-SORT and a tight asymptotic (Θ-notation) bound on the worst-case running time.
+
+c. Compare the worst-case running time of STOOGE-SORT with that of insertion sort, merge sort, heapsort, and quicksort. Do the professors deserve tenure?
+	
 ### `Answer`
 
 **a.**
@@ -180,9 +202,12 @@ One way to improve the RANDOMIZED-QUICKSORT procedure is to partition around a p
 
 **a.** Give an exact formula for pi as a function of n and i for i=2,3,...,n-1.(Note that p1 = pn = 0.)
 
-**b.** By what amount have we increased the likelihood of choosing the pivot as x = A'[⌊(n+ 1/2⌋], the median of A[1...n], compared to the ordinary implementation? Assume that n → ∞, and give the limiting ratio of these probabilities.
-**c.** If we define a "good" split to mean choosing the pivot as x = A'[i], where n/ ≤ i ≤ 2n/3, by what amount have we increased the likelihood of getting a good split compared to the ordinary implementation? (Hint: Approximate the sum by an integral.)
-**d.** Argue that in the Ω(n lg n) running time of quicksort, the median-of-3 method affects only the constant factor.
+**b.** By what amount have we increased the likelihood of choosing the pivot as x = A'[⌊(n
++ 1/2⌋], the median of A[1...n], compared to the ordinary implementation? Assume that n → ∞, and give the limiting ratio of these probabilities.
+
+**c.** If we define a "good" split to mean choosing the pivot as x = A'[i], where n/ ≤ i ≤ 2n/3, by what amount have we increased the likelihood of getting a good split compared to the ordinary implementation? (Hint: Approximate the sum by an integral.)
+
+**d.** Argue that in the Ω(n lg n) running time of quicksort, the median-of-3 method affects only the constant factor.
 
 ### `Answer`
 **a.**
@@ -208,10 +233,18 @@ One way to improve the RANDOMIZED-QUICKSORT procedure is to partition around a p
 
 ### Problems 6 : Fuzzy sorting of intervals
 Consider a sorting problem in which the numbers are not known exactly. Instead, for each number, we know an interval on the real line to which it belongs. That is, we are given n closed intervals of the form [ai, bi], where ai ≤ bi. The goal is to **fuzzy-sort** these intervals, i.e., produce a permutation [i1, i2,..., in] of the intervals such that there exist 
-![](http://latex.codecogs.com/gif.latex?c_j\\in[a_{i_j},b_{i_j}] ), satisfying c1 ≤c2 ≤···≤cn.**a.** Design an algorithm for fuzzy-sorting n intervals. Your algorithm should have the general structure of an algorithm that quicksorts the left endpoints (the ai 's), but it should take advantage of overlapping intervals to improve the running time. (As the intervals overlap more and more, the problem of fuzzy-sorting the intervals gets easier and easier. Your algorithm should take advantage of such overlapping, to the extent that it exists.)
-### `Answer`
-[implementation](./exercise_code/fuzzy_sort.py)
-类似于quicksort,只是当重叠区域越多，pivot内的区别就越多~~
+![](http://latex.codecogs.com/gif.latex?c_j\\in[a_{i_j},b_{i_j}] ), satisfying c1 ≤c2 ≤···≤cn.
+
+
+**a.** Design an algorithm for fuzzy-sorting n intervals. Your algorithm should have the general structure of an algorithm that quicksorts the left endpoints (the ai 's), but it should take advantage of overlapping intervals to improve the running time. (As the intervals overlap more and more, the problem of fuzzy-sorting the intervals gets easier and easier. Your algorithm should take advantage of such overlapping, to the extent that it exists.)
+
+
+### `Answer`
+
+[implementation](./exercise_code/fuzzy_sort.py)
+
+
+类似于quicksort,只是当重叠区域越多，pivot内的区别就越多~~
 
 ### Problems 2 (3rd Edition): Quicksort with equal element values
 The analysis of the expected running time of randomized quicksort in Section 7.4.2 assumes that all element values are distinct. In this problem, we examine what happens when they are not.
