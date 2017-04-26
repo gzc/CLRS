@@ -47,14 +47,11 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 
 ***
 
-
-
-
 <table class="table table-bordered table-striped table-condensed">
-    
+
     <tr>
         <td><font size="4px" color="#0x888888">Chapter</font></td>
-	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Section</font></td>
+	    <td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Section</font></td>
     </tr>
 
     <tr> <td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part I: Foundations</font></td></tr>
@@ -311,6 +308,7 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 
 
 </table>
+
 ***
 
 
