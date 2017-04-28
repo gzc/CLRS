@@ -229,6 +229,7 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
     	<td align="center">XXV</td>
 		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.3.md"><font color="black">3</font></td>
 		</tr>
 		<tr>
     	<td align="center">XXVI</td>
