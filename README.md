@@ -36,6 +36,8 @@ Solutions to *Introduction to Algorithms* by Charles E. Leiserson, Clifford Stei
 
 If I miss your name here, please pull a request to me to fix.
 
+You maybe interested in another repo [gitstats](https://github.com/gzc/gitstats) which generates repo contribution of CLRS.
+
 ## This repo needs your help.
 If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following list. Or if you are interested in certain chapters that have not been completed, you could fork this project and issue a pull request to this repo. Appreciate your efforts.
 
