@@ -16,6 +16,8 @@ def merge(items, p, q, r):
         k += 1
     if(j == len(R)):
         items[k:r+1] = L[i:]
+    else:
+        items[k:r+1] = R[j:]
 
 
 
