@@ -33,6 +33,7 @@ Solutions to *Introduction to Algorithms* by Charles E. Leiserson, Clifford Stei
 27. [imbrobits](https://github.com/imbrobits)
 28. [zhanglanqing](https://github.com/zhanglanqing)
 29. [tushar-rishav](https://github.com/tushar-rishav)
+30. [ravgill](https://github.com/ravgill)
 
 If I miss your name here, please pull a request to me to fix.
 
