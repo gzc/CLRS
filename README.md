@@ -308,6 +308,9 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [KMP](./C32-String-Matching/KMP.c)
 * [DFA](./C32-String-Matching/FA.c)
 
+### UTILITY
+* [Split string by delimiter in C++](./other/stringSpilit.cpp)
+
 # UNSOLVED
 
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
