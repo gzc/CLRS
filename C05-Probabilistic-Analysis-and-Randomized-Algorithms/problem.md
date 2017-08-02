@@ -19,12 +19,11 @@ b. The analysis of the variance of the count represented by the counter depends 
 **a.**
 每一次递增操作增加的期望为
 
-![](http://latex.codecogs.com/gif.latex? E = 0 \\cdot \(1-\\frac{1}{n_{i+1}-n_i}\) + 1\\cdot \(n_{i+1}-n_i\) \\cdot \\frac{1}{n_{i+1}-n_i} = 1 )
+![](http://latex.codecogs.com/gif.latex?%20E%20=%200%20\\cdot%20\(1-\\frac{1}{n_{i+1}-n_i}\)%20+%201\\cdot%20\(n_{i+1}-n_i\)%20\\cdot%20\\frac{1}{n_{i+1}-n_i}%20=%201%20)
 
 **b.**
 
-![](http://latex.codecogs.com/gif.latex? X_j \\quad\\text {stands for jth increment} \\\\ Var[X_j] = E[X_j^2] - E^2[X_j] = \(0^2 \\cdot \\frac{99}{100} + 100^2\\cdot\\frac{1}{100}\) - 1^2 = 99 \\\\ 
-Var[X] = \\sum_{i= 1}^{n}Var[X_i] = 99n)
+![](http://latex.codecogs.com/gif.latex?%20X_j%20\\quad\\text%20{stands%20for%20jth%20increment}%20\\\\%20Var[X_j]%20=%20E[X_j^2]%20-%20E^2[X_j]%20=%20\(0^2%20\\cdot%20\\frac{99}{100}%20+%20100^2\\cdot\\frac{1}{100}\)%20-%201^2%20=%2099%20\\\\%20%0d%0aVar[X]%20=%20\\sum_{i=%201}^{n}Var[X_i]%20=%2099n)
 
 
 ### Problems 2 : Searching an unsorted array

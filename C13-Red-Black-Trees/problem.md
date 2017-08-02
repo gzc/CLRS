@@ -41,8 +41,8 @@ b. Assume that bh[T1] ≥ bh[T2]. Describe an O(lg n)-time algorithm that finds 
 
 
 c. Let Ty be the subtree rooted at y. Describe how 
-![](http://latex.codecogs.com/gif.latex? T_y \\cup \\{x\\} \\cup T_2)
-can replace ![](http://latex.codecogs.com/gif.latex? T_y ) in O(1) time without destroying the binary-search-tree property.
+![](http://latex.codecogs.com/gif.latex?%20T_y%20\\cup%20\\{x\\}%20\\cup%20T_2)
+can replace ![](http://latex.codecogs.com/gif.latex?%20T_y%20) in O(1) time without destroying the binary-search-tree property.
 
 
 d. What color should we make x so that red-black properties 1, 3, and 5 are maintained? Describe how properties 2 and 4 can be enforced in O(lg n) time.
@@ -58,7 +58,7 @@ a. 在insert时，如果迭代回到根节点并修改了颜色，那么黑高�
 
 b. 从T1往下迭代，有右节点就走右节点;碰到黑节点黑高度就－1，一直到黑高度为bh[T2].
 
-c. 构造子树![](http://latex.codecogs.com/gif.latex? T_x)以x为根，左儿子是![](http://latex.codecogs.com/gif.latex? T_y)右儿子是![](http://latex.codecogs.com/gif.latex? T_2),将x挂到y的父节点下面,并将x设为RED(保持性质5).
+c. 构造子树![](http://latex.codecogs.com/gif.latex?%20T_x)以x为根，左儿子是![](http://latex.codecogs.com/gif.latex?%20T_y)右儿子是![](http://latex.codecogs.com/gif.latex?%20T_2),将x挂到y的父节点下面,并将x设为RED(保持性质5).
 
 d. RED.当y的父节点是红色时需要调整，根INSERT-FIXUP的case1类似，是O(lgn).
 
@@ -82,14 +82,12 @@ d. Show that AVL-INSERT,run on an n-node AVL tree,takes O(lgn) time and performs
 
 ### `Answer`
 a. 对于斐波那契数列有F(0) = 1, F(1) = 1, F(2) = 2,...,F(n) = F(n-1)+F(n-2). <br \>
-设T(n)为高度h的AVL树的最少节点数. 我们尝试证明 ![](http://latex.codecogs.com/gif.latex?T\(n\)\\ge F\(n\)) .<br \> 
-一开始，有![](http://latex.codecogs.com/gif.latex? T\(1\)\\ge F\(1\)) 和![](http://latex.codecogs.com/gif.latex? T\(2\)\\ge F\(2\)) <br />
-![](http://latex.codecogs.com/gif.latex? T\(n\)\\ge T\(n-1\) + T\(n-2\) + 1 \\\\  ~\\hspace{15 mm} \\ge F\(n-1\) + F\(n-2\) + 1 \\\\ ~\\hspace{15 mm}
- \> F\(n\) 
-) 
+设T(n)为高度h的AVL树的最少节点数. 我们尝试证明 ![](http://latex.codecogs.com/gif.latex?T\(n\)\\ge%20F\(n\)) .<br \> 
+一开始，有![](http://latex.codecogs.com/gif.latex?%20T\(1\)\\ge%20F\(1\)) 和![](http://latex.codecogs.com/gif.latex?%20T\(2\)\\ge%20F\(2\)) <br />
+![](http://latex.codecogs.com/gif.latex?%20T\(n\)\\ge%20T\(n-1\)%20+%20T\(n-2\)%20+%201%20\\\\%20%20~\\hspace{15%20mm}%20\\ge%20F\(n-1\)%20+%20F\(n-2\)%20+%201%20\\\\%20~\\hspace{15%20mm}%0d%0a%20\>%20F\(n\)%20%0d%0a) 
 <br />
-并且有![](http://latex.codecogs.com/gif.latex? 2^n \\le F\(n\) \\le 1.6^n),
-因此![](http://latex.codecogs.com/gif.latex? T\(n\) = O\(  \\lg\(n\)   \) ).
+并且有![](http://latex.codecogs.com/gif.latex?%202^n%20\\le%20F\(n\)%20\\le%201.6^n),
+因此![](http://latex.codecogs.com/gif.latex?%20T\(n\)%20=%20O\(%20%20\\lg\(n\)%20%20%20\)%20).
 
 b. 	thanks [mit](http://courses.csail.mit.edu/6.046/spring04/handouts/ps5-sol.pdf) for this picture. 只画出了右边大于左边的情况.
 ![image](./repo/p/2.png)

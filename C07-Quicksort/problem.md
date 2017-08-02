@@ -61,20 +61,17 @@ An alternative analysis of the running time of randomized quicksort focuses on t
 **a.** Argue that, given an array of size n, the probability that any particular element is chosen as the pivot is 1/n. Use this to define indicator random variables Xi = I{ith smallest element is chosen as the pivot}. What is E [Xi]?
 
 **b.** Let T (n) be a random variable denoting the running time of quicksort on an array of size n. Argue that
-![](http://latex.codecogs.com/gif.latex?
-E[T\(n\)] = E\\bigg[\\sum_{q=1}^nX_q\(T\(q-1\) + T\(n-q\) + \\Theta\(n\)\)\\bigg] )
+![](http://latex.codecogs.com/gif.latex?%0d%0aE[T\(n\)]%20=%20E\\bigg[\\sum_{q=1}^nX_q\(T\(q-1\)%20+%20T\(n-q\)%20+%20\\Theta\(n\)\)\\bigg]%20)
 
 **c.**
 Show that equation (7.5) simplifies to
 
-![](http://latex.codecogs.com/gif.latex?
-E[T\(n\)] = \\frac{2}{n}\\sum_{q=2}^{n-1}E[T\(q\)] + \\Theta\(n\) )
+![](http://latex.codecogs.com/gif.latex?%0d%0aE[T\(n\)]%20=%20\\frac{2}{n}\\sum_{q=2}^{n-1}E[T\(q\)]%20+%20\\Theta\(n\)%20)
 
 **d.**
 Show that
 
-![](http://latex.codecogs.com/gif.latex?
-\\sum_{k=2}^{n-1}k\\lg{k} \\le \\frac{1}{2}n^2\\lg{n} - \\frac{1}{8}n^2 )
+![](http://latex.codecogs.com/gif.latex?%0d%0a\\sum_{k=2}^{n-1}k\\lg{k}%20\\le%20\\frac{1}{2}n^2\\lg{n}%20-%20\\frac{1}{8}n^2%20)
 
 **e.**
 
@@ -98,29 +95,13 @@ E[Xi]=1/n.
 
 **d.**
 
-![](http://latex.codecogs.com/gif.latex?
-   \\sum_{k=2}^{n-1}k\\lg{k}
-   =   \\sum_{k=2}^{\\lceil n/2 \\rceil - 1}k\\lg{k} + \\sum_{k=\l\ceil n/2 \\rceil}^{n - 1}k\\lg{k} \\\\ ~ \\hspace{22 mm}
-   \\le \\sum_{k=2}^{n/2}k\\lg{k} + \\sum_{k=n/2 + 1}^{n}k\\lg{k} \\\\ ~ \\hspace{22 mm}
-   \\le \\sum_{k=2}^{n/2}k\\lg\(n/2\) + \\sum_{k=n/2 + 1}^{n}k\\lg{n} \\\\ ~ \\hspace{22 mm}
-   =   \\lg\(n/2\)\\sum_{k=2}^{n/2}k + \\lg{n}\\sum_{k=n/2 + 1}^{n}k \\\\ ~ \\hspace{22 mm}
-   =   \(\\lg{n} - \\lg{2}\)\\bigg\(\\frac{\(n/2\)\(n/2 + 1\)}{2}\\bigg\) + \\lg{n}\\bigg\(\\frac{n\(n+1\)}{2} - \\frac{\(n/2\)\(n/2 + 1\)}{2}\\bigg\) \\\\  ~ \\hspace{22 mm}
-   =   \\lg{n}\\frac{n\(n+1\)}{2} - \\frac{\(n/2\)\(n/2 + 1\)}{2} \\\\  ~ \\hspace{22 mm}
-   =   \\frac{1}{2}\\lg{n}\(n^2 + 2n + 1\) - \\frac{1}{8}\(n^2 + 2n + 1/8\) \\\\ ~ \\hspace{22 mm}
-   =   \\frac{1}{2}n^2\\lg{n} - \\frac{1}{8}n^2 - \\frac{8n\\lg{n} + 4\\lg{n} - 2n - 1/8}{8} \\\\ ~ \\hspace{22 mm}
-   \\le \\frac{1}{2}n^2\\lg{n} - \\frac{1}{8}n^2)
+![](http://latex.codecogs.com/gif.latex?%0d%0a%20%20%20\\sum_{k=2}^{n-1}k\\lg{k}%0d%0a%20%20%20=%20%20%20\\sum_{k=2}^{\\lceil%20n/2%20\\rceil%20-%201}k\\lg{k}%20+%20\\sum_{k=\l\ceil%20n/2%20\\rceil}^{n%20-%201}k\\lg{k}%20\\\\%20~%20\\hspace{22%20mm}%0d%0a%20%20%20\\le%20\\sum_{k=2}^{n/2}k\\lg{k}%20+%20\\sum_{k=n/2%20+%201}^{n}k\\lg{k}%20\\\\%20~%20\\hspace{22%20mm}%0d%0a%20%20%20\\le%20\\sum_{k=2}^{n/2}k\\lg\(n/2\)%20+%20\\sum_{k=n/2%20+%201}^{n}k\\lg{n}%20\\\\%20~%20\\hspace{22%20mm}%0d%0a%20%20%20=%20%20%20\\lg\(n/2\)\\sum_{k=2}^{n/2}k%20+%20\\lg{n}\\sum_{k=n/2%20+%201}^{n}k%20\\\\%20~%20\\hspace{22%20mm}%0d%0a%20%20%20=%20%20%20\(\\lg{n}%20-%20\\lg{2}\)\\bigg\(\\frac{\(n/2\)\(n/2%20+%201\)}{2}\\bigg\)%20+%20\\lg{n}\\bigg\(\\frac{n\(n+1\)}{2}%20-%20\\frac{\(n/2\)\(n/2%20+%201\)}{2}\\bigg\)%20\\\\%20%20~%20\\hspace{22%20mm}%0d%0a%20%20%20=%20%20%20\\lg{n}\\frac{n\(n+1\)}{2}%20-%20\\frac{\(n/2\)\(n/2%20+%201\)}{2}%20\\\\%20%20~%20\\hspace{22%20mm}%0d%0a%20%20%20=%20%20%20\\frac{1}{2}\\lg{n}\(n^2%20+%202n%20+%201\)%20-%20\\frac{1}{8}\(n^2%20+%202n%20+%201/8\)%20\\\\%20~%20\\hspace{22%20mm}%0d%0a%20%20%20=%20%20%20\\frac{1}{2}n^2\\lg{n}%20-%20\\frac{1}{8}n^2%20-%20\\frac{8n\\lg{n}%20+%204\\lg{n}%20-%202n%20-%201/8}{8}%20\\\\%20~%20\\hspace{22%20mm}%0d%0a%20%20%20\\le%20\\frac{1}{2}n^2\\lg{n}%20-%20\\frac{1}{8}n^2)
    
 **e.**
 
 我们猜想 E[T(n)] ≤ anlgn
 
-![](http://latex.codecogs.com/gif.latex?
-E[T\(n\)] =   \\frac{2}{n}\\sum_{q=2}^{n-1}E[T\(q\)] + \\Theta\(n\) \\\\ ~ \\hspace{21 mm}
-            \\le \\frac{2}{n}\\sum_{q=2}^{n-1}an\\lg{n} + \\Theta\(n\)   \\\\ ~ \\hspace{21 mm}
-            \\le \\frac{2a}{n}\\bigg\(\\frac{1}{2}n^2\\lg{n} - \\frac{1}{8}n^2\\bigg\)
-                 + \\Theta\(n\) \\\\\ ~ \\hspace{21 mm}
-            =   an\\lg{n} - \\frac{a}{4}n + \\Theta\(n\) \\\\ ~ \\hspace{21 mm}
-            \\le an\\lg{n}  )
+![](http://latex.codecogs.com/gif.latex?%0d%0aE[T\(n\)]%20=%20%20%20\\frac{2}{n}\\sum_{q=2}^{n-1}E[T\(q\)]%20+%20\\Theta\(n\)%20\\\\%20~%20\\hspace{21%20mm}%0d%0a%20%20%20%20%20%20%20%20%20%20%20%20\\le%20\\frac{2}{n}\\sum_{q=2}^{n-1}an\\lg{n}%20+%20\\Theta\(n\)%20%20%20\\\\%20~%20\\hspace{21%20mm}%0d%0a%20%20%20%20%20%20%20%20%20%20%20%20\\le%20\\frac{2a}{n}\\bigg\(\\frac{1}{2}n^2\\lg{n}%20-%20\\frac{1}{8}n^2\\bigg\)%0d%0a%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20+%20\\Theta\(n\)%20\\\\\ ~%20\\hspace{21%20mm}%0d%0a%20%20%20%20%20%20%20%20%20%20%20%20=%20%20%20an\\lg{n}%20-%20\\frac{a}{4}n%20+%20\\Theta\(n\)%20\\\\%20~%20\\hspace{21%20mm}%0d%0a%20%20%20%20%20%20%20%20%20%20%20%20\\le%20an\\lg{n}%20%20)
 
 
 ### Problems 3 : Stooge sort
@@ -153,7 +134,7 @@ c. Compare the worst-case running time of STOOGE-SORT with that of insertion sor
 
 T(n) = 3T(2n/3) + O(1)
 
-根据主定理最坏运行时间是![](http://latex.codecogs.com/gif.latex? \\Theta\(n^{\\log{\\frac{3}{2}}{3}}\))
+根据主定理最坏运行时间是![](http://latex.codecogs.com/gif.latex?%20\\Theta\(n^{\\log{\\frac{3}{2}}{3}}\))
 
 **c.**
 
@@ -212,20 +193,15 @@ One way to improve the RANDOMIZED-QUICKSORT procedure is to partition around a p
 ### `Answer`
 **a.**
 
-![](http://latex.codecogs.com/gif.latex? p_i = \\frac{6\(i-1\)\(n-i\)}{n\(n-1\)\(n-2\)} )
+![](http://latex.codecogs.com/gif.latex?%20p_i%20=%20\\frac{6\(i-1\)\(n-i\)}{n\(n-1\)\(n-2\)}%20)
 
 **b.**
 
-![](http://latex.codecogs.com/gif.latex?
-\\lim_{n \\to \\infty}\\frac{6\(i-1\)\(n-i\)}{n\(n-1\)\(n-2\)}/\\frac{1}{n}
- = \\lim_{n \\to \\infty}\\frac{6n\(n/2 - 1\)\(n/2\)}{\(n-1\)\(n-2\)} = 1.5 )
+![](http://latex.codecogs.com/gif.latex?%0d%0a\\lim_{n%20\\to%20\\infty}\\frac{6\(i-1\)\(n-i\)}{n\(n-1\)\(n-2\)}/\\frac{1}{n}%0d%0a%20=%20\\lim_{n%20\\to%20\\infty}\\frac{6n\(n/2%20-%201\)\(n/2\)}{\(n-1\)\(n-2\)}%20=%201.5%20)
  
 **c.**
 
-![](http://latex.codecogs.com/gif.latex?
-\\lim_{n \\to \\infty}\\sum_{i=n/3}^{2n/3}\\frac{6\(i-1\)\(n-i\)}{n\(n-1\)\(n-2\)} = 
-\\lim_{n \\to \\infty}\\frac{6}{n\(n-1\)\(n-2\)}\\sum_{i=n/3}^{2n/3}\(i-1\)\(n-i\) = 
-\\frac{13}{27})
+![](http://latex.codecogs.com/gif.latex?%0d%0a\\lim_{n%20\\to%20\\infty}\\sum_{i=n/3}^{2n/3}\\frac{6\(i-1\)\(n-i\)}{n\(n-1\)\(n-2\)}%20=%20%0d%0a\\lim_{n%20\\to%20\\infty}\\frac{6}{n\(n-1\)\(n-2\)}\\sum_{i=n/3}^{2n/3}\(i-1\)\(n-i\)%20=%20%0d%0a\\frac{13}{27})
 
 **d.**
 这种方法无法保证能取最优划分点，依然是概率问题，而且比普通的提升并没有很大.
@@ -233,7 +209,7 @@ One way to improve the RANDOMIZED-QUICKSORT procedure is to partition around a p
 
 ### Problems 6 : Fuzzy sorting of intervals
 Consider a sorting problem in which the numbers are not known exactly. Instead, for each number, we know an interval on the real line to which it belongs. That is, we are given n closed intervals of the form [ai, bi], where ai ≤ bi. The goal is to **fuzzy-sort** these intervals, i.e., produce a permutation [i1, i2,..., in] of the intervals such that there exist 
-![](http://latex.codecogs.com/gif.latex?c_j\\in[a_{i_j},b_{i_j}] ), satisfying c1 ≤c2 ≤···≤cn.
+![](http://latex.codecogs.com/gif.latex?c_j\\in[a_{i_j},b_{i_j}]%20), satisfying c1 ≤c2 ≤···≤cn.
 
 
 **a.** Design an algorithm for fuzzy-sorting n intervals. Your algorithm should have the general structure of an algorithm that quicksorts the left endpoints (the ai 's), but it should take advantage of overlapping intervals to improve the running time. (As the intervals overlap more and more, the problem of fuzzy-sorting the intervals gets easier and easier. Your algorithm should take advantage of such overlapping, to the extent that it exists.)

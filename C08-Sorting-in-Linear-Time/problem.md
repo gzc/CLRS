@@ -8,8 +8,7 @@ In this problem, we prove an Ω(n lg n) lower bound on the expected running time
 
 **c.** Let d(k) be the minimum value of D(T) over all decision trees T with k > 1 leaves. Show that
 
-![](http://latex.codecogs.com/gif.latex?
-d\(k\) = \\min_{1 \\le i \\le k-1}\\{d\(i\) + d\(k-i\) + k\\} )
+![](http://latex.codecogs.com/gif.latex?%0d%0ad\(k\)%20=%20\\min_{1%20\\le%20i%20\\le%20k-1}\\{d\(i\)%20+%20d\(k-i\)%20+%20k\\}%20)
 
 (Hint: Consider a decision tree T with k leaves that achieves the minimum. Let i0 be the number of leaves in LT and k - i0 the number of leaves in RT.)
 
@@ -39,17 +38,13 @@ Now, consider a randomized comparison sort B. We can extend the decision-tree mo
 
 那么很自然可以知道，就是左子树的叶子节点从1到k-1这么多可能.
 
-![](http://latex.codecogs.com/gif.latex?
-d\(k\) = D\(T\) = D\(LT\) + D\(RT\) + k = \\min_{1 \\le i \\le k-1}\\{d\(i\) + d\(k-i\) + k\\} )
+![](http://latex.codecogs.com/gif.latex?%0d%0ad\(k\)%20=%20D\(T\)%20=%20D\(LT\)%20+%20D\(RT\)%20+%20k%20=%20\\min_{1%20\\le%20i%20\\le%20k-1}\\{d\(i\)%20+%20d\(k-i\)%20+%20k\\}%20)
 
 **d.**
 
 比较简单的求导.
 
-![](http://latex.codecogs.com/gif.latex?
-f\(i\) = i\\lg{i} + \(k-i\)\\lg\(k-i\) \\\\ ~ \\hspace{6 mm}
-     f'\(i\) = \\lg{i} + 1 - \\lg\(k-i\) - 1 = \\lg\\frac{i}{k-i} \\\\ ~ \\hspace{6 mm}
-     f'\(i\) = 0  \\Leftrightarrow \\lg\\frac{i}{k-i} = 0 \\Rightarrow i/\(k-i\) = 1 \\Rightarrow i = \\frac{k}{2} )
+![](http://latex.codecogs.com/gif.latex?%0d%0af\(i\)%20=%20i\\lg{i}%20+%20\(k-i\)\\lg\(k-i\)%20\\\\%20~%20\\hspace{6%20mm}%0d%0a%20%20%20%20%20f'\(i\)%20=%20\\lg{i}%20+%201%20-%20\\lg\(k-i\)%20-%201%20=%20\\lg\\frac{i}{k-i}%20\\\\%20~%20\\hspace{6%20mm}%0d%0a%20%20%20%20%20f'\(i\)%20=%200%20%20\\Leftrightarrow%20\\lg\\frac{i}{k-i}%20=%200%20\\Rightarrow%20i/\(k-i\)%20=%201%20\\Rightarrow%20i%20=%20\\frac{k}{2}%20)
 
 **e.**
 
@@ -57,8 +52,7 @@ TA一共有n!个叶子节点，所以有D(T) > d(n!) = Ω(n!lg(n!))
 
 我们已经求出了外路径长度，总共有n!个概率相同的节点,所以最终有
 
-![](http://latex.codecogs.com/gif.latex?
-\\frac{\\Omega\(n!\\lg\(n!\)\)}{n!} = \\Omega\(\\lg\(n!\)\) = \\Omega\(n\\lg{n}\) )
+![](http://latex.codecogs.com/gif.latex?%0d%0a\\frac{\\Omega\(n!\\lg\(n!\)\)}{n!}%20=%20\\Omega\(\\lg\(n!\)\)%20=%20\\Omega\(n\\lg{n}\)%20)
 
 **f.**
 非随机化版本有n!种路径，囊括了所有可能. 而任何一种随机化都肯定在这n!里面，而且少了random的操作.
@@ -136,7 +130,7 @@ For the nubers, we can do this:
     
 We let the `Gi` be the group of numbers with i digits and ci = |Gi|, thus: we can multiply the `n*Ci` with `i`, then sum from `i = 1` to `i = highest digit`. We can get the 
 
-![](http://latex.codecogs.com/gif.latex?T\(n\)= \\sum_{i = 1}nc_i \\cdot i = n )
+![](http://latex.codecogs.com/gif.latex?T\(n\)=%20\\sum_{i%20=%201}nc_i%20\\cdot%20i%20=%20n%20)
 
 
 **b.**
@@ -176,7 +170,7 @@ c. Give a randomized algorithm whose expected number of comparisons is O(n lg n)
 
 决策树的每个node都有3个sub-node(A < B | A = B | A > B).总共有n!个输出.所以有
 
-![](http://latex.codecogs.com/gif.latex?3^h \\ge n! \\Rightarrow h \\ge \\lg{n!} \\Rightarrow h = \\Omega\(n\\lg{n}\))
+![](http://latex.codecogs.com/gif.latex?3^h%20\\ge%20n!%20\\Rightarrow%20h%20\\ge%20\\lg{n!}%20\\Rightarrow%20h%20=%20\\Omega\(n\\lg{n}\))
 
 **c.**
 
@@ -189,7 +183,7 @@ key idea : 跟快速排序是一样的
 ***
 Suppose that, instead of sorting an array, we just require that the elements increase on average. More precisely, we call an n-element array A k-sorted if, for all i = 1, 2, . . ., n - k, the following holds:
 
-![](http://latex.codecogs.com/gif.latex? \\frac{\\sum_{j = i}^{i+k-1}}{k}A[j] \\le \\frac{\\sum_{j = i+1}^{i+k}}{k}A[j])
+![](http://latex.codecogs.com/gif.latex?%20\\frac{\\sum_{j%20=%20i}^{i+k-1}}{k}A[j]%20\\le%20\\frac{\\sum_{j%20=%20i+1}^{i+k}}{k}A[j])
 
 **a.** What does it mean for an array to be 1-sorted?
 
@@ -259,12 +253,7 @@ Now we will show a slightly tighter 2n - 1 bound.
 
 **b.**
 
-![](http://latex.codecogs.com/gif.latex? 2^h \\ge  C_{2n}^n \\\\ ~ \\hspace{6 mm}
-2^h \\ge \\frac{2n!}{\(n!\)^2}  \\\\ ~ \\hspace{8 mm}
-h \\ge \\log{2n!} -2\\log{n!} \\\\ ~ \\hspace{10 mm}
-= \\Theta\(2n\\log{2n}\) - 2\\Theta\(n\\log{n}\) \\\\~ \\hspace{10 mm}
-= \\log{2}\\Theta\(2n\) \\\\~ \\hspace{10 mm}
-= \\Theta\(2n\))
+![](http://latex.codecogs.com/gif.latex?%202^h%20\\ge%20%20C_{2n}^n%20\\\\%20~%20\\hspace{6%20mm}%0d%0a2^h%20\\ge%20\\frac{2n!}{\(n!\)^2}%20%20\\\\%20~%20\\hspace{8%20mm}%0d%0ah%20\\ge%20\\log{2n!}%20-2\\log{n!}%20\\\\%20~%20\\hspace{10%20mm}%0d%0a=%20\\Theta\(2n\\log{2n}\)%20-%202\\Theta\(n\\log{n}\)%20\\\\~%20\\hspace{10%20mm}%0d%0a=%20\\log{2}\\Theta\(2n\)%20\\\\~%20\\hspace{10%20mm}%0d%0a=%20\\Theta\(2n\))
 
 树的高度是2n级别的，因此最少需要2n-o(n)次
 

@@ -19,15 +19,15 @@ a和b的代码在这里.[code](./problems/i-largest.py).
 
 ### Problems 2 : Weighted median
 ***
-For n distinct elements ![](http://latex.codecogs.com/gif.latex?x_1, x_2, ..., x_n) with positive weights ![](http://latex.codecogs.com/gif.latex?w_1, w_2, ..., w_n) such that 
-![](http://latex.codecogs.com/gif.latex?\\sum_{i=1}^{n}w_i = 1)
+For n distinct elements ![](http://latex.codecogs.com/gif.latex?x_1,%20x_2,%20...,%20x_n) with positive weights ![](http://latex.codecogs.com/gif.latex?w_1,%20w_2,%20...,%20w_n) such that 
+![](http://latex.codecogs.com/gif.latex?\\sum_{i=1}^{n}w_i%20=%201)
 ,**the weighted (lower)** median is the element ![](http://latex.codecogs.com/gif.latex?x_k) satisfying
 
-![](http://latex.codecogs.com/gif.latex?\\sum_{x_i < x_k}w_i < \\frac{1}{2}     )
+![](http://latex.codecogs.com/gif.latex?\\sum_{x_i%20<%20x_k}w_i%20<%20\\frac{1}{2}%20%20%20%20%20)
 
 and
 
-![](http://latex.codecogs.com/gif.latex?\\sum_{x_i > x_k}w_i \\le \\frac{1}{2})
+![](http://latex.codecogs.com/gif.latex?\\sum_{x_i%20>%20x_k}w_i%20\\le%20\\frac{1}{2})
 
 a. Argue that the median of x1, x2, ..., xn is the weighted median of the xi with weights wi = 1/n for i = 1,2, ..., n.
 
@@ -37,8 +37,7 @@ c. Show how to compute the weighted median in Θ(n) worst-case time using a line
 
 The **post-office location problem** is defined as follows. We are given *n* points p1, p2, ..., pn with associated weights w1, w2, ..., wn. We wish to find a point p (not necessarily one of the input points) that minimizes the sum 
 
-![](http://latex.codecogs.com/gif.latex?\\sum_{i = 1}^{n}w_id\(p,p_i\)
-)
+![](http://latex.codecogs.com/gif.latex?\\sum_{i%20=%201}^{n}w_id\(p,p_i\)%0d%0a)
 where *d*(a, b) is the distance between points a and b.
 
 d. Argue that the weighted median is a best solution for the 1-dimensional post-office location problem, in which points are simply real numbers and the distance between points a and b is *d*(a, b) = |a - b|.
@@ -64,7 +63,7 @@ The worst-case number T(n) of comparisons used by SELECT to select the ith order
 
 a. Describe an algorithm that uses Ui(n) comparisons to find the ith smallest of n elements, where
 ![image](./repo/p/o.png)(Hint: Begin with 
-![](http://latex.codecogs.com/gif.latex? \\lfloor n/2 \\rfloor )
+![](http://latex.codecogs.com/gif.latex?%20\\lfloor%20n/2%20\\rfloor%20)
 disjoint pairwise comparisons, and recurse on the set containing the smaller element from each pair.)
 
 b. Show that, if i < n/2, then Ui(n) = n + O(T (2i) lg(n/i)).
@@ -81,22 +80,11 @@ a.
 	4. 当调用回来时，能找到这小的一组的第i个数，这个数左边都是比它小的数字，再从map中找到这i个数字对应的数字，这样总共有2i个数字，再对这2i个数字调用SELECT.
 	很tricky的一点是为什么最后要调用T(2i),看下面这个数字[1,2,3,4],order-2是2，可是分组完后较小元素是[1,3],所以还要对另外i个数字进行比较.
 
-b. 	![](http://latex.codecogs.com/gif.latex?
-	U_i\(n\) = \\lfloor n/2 \\rfloor  + U_i\(\\lceil n/2 \\rceil\) + T\(2i\) \\nonumber \\\\  ~
-\\hspace{16 mm} = \\lfloor n/2 \\rfloor  + \\lceil n/2 \\rceil + O\(T\(2i\)\\lg\(\\lfloor n/2 \\rfloor / i\)\)+T\(2i\)	 \\\\  ~
-\\hspace{16 mm} = n + O\(T\(2i\)\\lg\(n / i\)\) + T\(2i\) \\\\  ~
-\\hspace{16 mm}= n + O\(T\(2i\)\\lg\(n / i\)\)
-)
+b. 	![](http://latex.codecogs.com/gif.latex?%0d%0a%09U_i\(n\)%20=%20\\lfloor%20n/2%20\\rfloor%20%20+%20U_i\(\\lceil%20n/2%20\\rceil\)%20+%20T\(2i\)%20\\nonumber%20\\\\%20%20~%0d%0a\\hspace{16%20mm}%20=%20\\lfloor%20n/2%20\\rfloor%20%20+%20\\lceil%20n/2%20\\rceil%20+%20O\(T\(2i\)\\lg\(\\lfloor%20n/2%20\\rfloor%20/%20i\)\)+T\(2i\)%09%20\\\\%20%20~%0d%0a\\hspace{16%20mm}%20=%20n%20+%20O\(T\(2i\)\\lg\(n%20/%20i\)\)%20+%20T\(2i\)%20\\\\%20%20~%0d%0a\\hspace{16%20mm}=%20n%20+%20O\(T\(2i\)\\lg\(n%20/%20i\)\)%0d%0a)
 
-c. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\)\) \\\\  ~\\hspace{16 mm} = n + O\(O\(1\)\\lg\(n / i\)\) \\\\  ~
-\\hspace{16 mm} = n + O\(\\lg\(n\) - \\lg\(i\)\) \\\\  ~
-\\hspace{16 mm} = n + O\(\\lg\(n\) - O\(1\)\) \\\\  ~
-\\hspace{16 mm} = n + O\(\\lg\(n\)\) \\\\  ~
-)
+c. ![](http://latex.codecogs.com/gif.latex?U_i\(n\)%20=%20n%20+%20O\(T\(2i\)\\lg\(n%20/%20i\)\)%20\\\\%20%20~\\hspace{16%20mm}%20=%20n%20+%20O\(O\(1\)\\lg\(n%20/%20i\)\)%20\\\\%20%20~%0d%0a\\hspace{16%20mm}%20=%20n%20+%20O\(\\lg\(n\)%20-%20\\lg\(i\)\)%20\\\\%20%20~%0d%0a\\hspace{16%20mm}%20=%20n%20+%20O\(\\lg\(n\)%20-%20O\(1\)\)%20\\\\%20%20~%0d%0a\\hspace{16%20mm}%20=%20n%20+%20O\(\\lg\(n\)\)%20\\\\%20%20~%0d%0a)
 
-d. ![](http://latex.codecogs.com/gif.latex?U_i\(n\) = n + O\(T\(2i\)\\lg\(n / i\)\) \\\\       ~\\hspace{16 mm} = n + O\(T\(2n/k\)\\lg\(n / \(n/k\)\)\) \\\\       ~
-\\hspace{16 mm} = n + O\(T\(2n/k\)\\lg\(k\)\)
-)
+d. ![](http://latex.codecogs.com/gif.latex?U_i\(n\)%20=%20n%20+%20O\(T\(2i\)\\lg\(n%20/%20i\)\)%20\\\\%20%20%20%20%20%20%20~\\hspace{16%20mm}%20=%20n%20+%20O\(T\(2n/k\)\\lg\(n%20/%20\(n/k\)\)\)%20\\\\%20%20%20%20%20%20%20~%0d%0a\\hspace{16%20mm}%20=%20n%20+%20O\(T\(2n/k\)\\lg\(k\)\)%0d%0a)
 
 
 ***

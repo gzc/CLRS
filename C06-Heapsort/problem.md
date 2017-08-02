@@ -22,7 +22,7 @@ b. Show that in the worst case, BUILD-MAX-HEAP' requires Θ(n lg n) time to buil
 **b.**
 当原数组是递增序列时，需要的时间
 
-![](http://latex.codecogs.com/gif.latex? T = \\sum_{i = 2}^{n}\\lg{i} = \\lg{n!} = \\Theta\(n\\lg{n}\) )
+![](http://latex.codecogs.com/gif.latex?%20T%20=%20\\sum_{i%20=%202}^{n}\\lg{i}%20=%20\\lg{n!}%20=%20\\Theta\(n\\lg{n}\)%20)
 
 
 
@@ -42,12 +42,9 @@ max(A[i], k) and then updates the d-ary max-heap structure appropriately. Analyz
 ### `Answer`
 [implementation](./d-ary-heaps.cpp)
 
-![](http://latex.codecogs.com/gif.latex? \\quad\\text{Height :} \\log_{d}{n} )
+![](http://latex.codecogs.com/gif.latex?%20\\quad\\text{Height%20:}%20\\log_{d}{n}%20)
 
-![](http://latex.codecogs.com/gif.latex? \\quad\\text{\\textbf{Complexity}} \\\\
-\\quad\\text{ EXTRACT-MAX : } d\\log_{d}{n} \\\\
-\\quad\\text{ INSERT : } \\log_{d}{n} \\\\ 
-\\quad\\text{ INCREASE-KEY : } \\log_{d}{n} )
+![](http://latex.codecogs.com/gif.latex?%20\\quad\\text{\\textbf{Complexity}}%20\\\\%0d%0a\\quad\\text{%20EXTRACT-MAX%20:%20}%20d\\log_{d}{n}%20\\\\%0d%0a\\quad\\text{%20INSERT%20:%20}%20\\log_{d}{n}%20\\\\%20%0d%0a\\quad\\text{%20INCREASE-KEY%20:%20}%20\\log_{d}{n}%20)
 
 
 ### Problems 3 : Young tableaus
@@ -70,8 +67,7 @@ f. Give an O(m+n)-time algorithm to determine whether a given number is stored i
 
 **a.**
 
-![](http://latex.codecogs.com/gif.latex?
-\\begin{matrix} 2 & 3 & 12 & \\infty \\\\ 4 & 8 & 16 & \\infty \\\\ 5 & 9 & \\infty & \\infty \\\\ 14 & \\infty & \\infty & \\infty \\\\ \\end{matrix} )
+![](http://latex.codecogs.com/gif.latex?%0d%0a\\begin{matrix}%202%20&%203%20&%2012%20&%20\\infty%20\\\\%204%20&%208%20&%2016%20&%20\\infty%20\\\\%205%20&%209%20&%20\\infty%20&%20\\infty%20\\\\%2014%20&%20\\infty%20&%20\\infty%20&%20\\infty%20\\\\%20\\end{matrix}%20)
 
 
 **b.**
@@ -86,8 +82,7 @@ T(p) = T(p-1) + O(1) = O(p)
 跟c是一个相反的操作，具体见代码.
 
 **e.**
-![](http://latex.codecogs.com/gif.latex? 
-T = n^2O\(p\)  = O\(n^3\))
+![](http://latex.codecogs.com/gif.latex?%20%0d%0aT%20=%20n^2O\(p\)%20%20=%20O\(n^3\))
 
 **f.**
 实现见代码.
