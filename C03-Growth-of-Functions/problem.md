@@ -44,7 +44,7 @@ Rank the following functions by order of growth; that is, find an arrangement ![
 ![](https://latex.codecogs.com/png.latex?lg\(lg^*n\)\quad&space;2^{lg^*n}\quad&space;\(\sqrt{2}\)^{lgn}\quad&space;n^2&space;\quad&space;n!\quad&space;\(lgn\)!\newline&space;\(\frac{2}{3}\)^n\quad&space;n^3\quad&space;lg^2n\quad&space;lg\(n!\)\quad&space;2^2^n\quad&space;n^{1/lgn}\newline&space;ln&space;lnn\quad&space;lg^*n\quad&space;n\cdot&space;2^n\quad&space;n^{lg&space;lgn}\quad&space;lnn\quad&space;1\newline&space;2^{lgn}\quad&space;{\(lgn\)}^{lgn}\quad&space;e^n\quad&space;4^{lgn}\quad&space;\(n&plus;1\)!\quad&space;\sqrt{lgn}\newline&space;lg^*\(lgn\)\quad&space;2^{\sqrt{2lgn}}\quad&space;n\quad&space;2^n\quad&space;nlgn\quad&space;2^{2^{n&plus;1}})
 
 b.
-Give an example of a single nonnegative function ![](https://latex.codecogs.com/png.latex?f\(n\)) such that for all functions ![](https://latex.codecogs.com/png.latex?g_i\(n\)) in part (a), ![](https://latex.codecogs.com/png.latex?f\(n\)) is neither ![](https://latex.codecogs.com/png.latex?\O\(g_i\(n\)\)) nor  ![](https://latex.codecogs.com/png.latex?\Omega\(g_i\(n\)\)).
+Give an example of a single nonnegative function ![](https://latex.codecogs.com/png.latex?f\(n\)) such that for all functions ![](https://latex.codecogs.com/png.latex?g_i\(n\)) in part (a), ![](https://latex.codecogs.com/png.latex?f\(n\)) is neither ![](https://latex.codecogs.com/gif.latex?\O\(g_i\(n\)\)) nor  ![](https://latex.codecogs.com/gif.latex?\Omega\(g_i\(n\)\)).
 
 ### `Answer`
 a.
