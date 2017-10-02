@@ -48,9 +48,12 @@ Give an example of a single nonnegative function ![](https://latex.codecogs.com/
 
 ### `Answer`
 a.
-![](https://latex.codecogs.com/png.latex?2^{2^{n&plus;1}}\quad&space;2^{2^{n}}\newline &space;\(n&plus;1\)!\quad&space;n!\quad&space;e^n\quad&space;n\cdot&space;2^n\quad&space;2^n\quad&space;\(\frac{3}{2}\)^n\newline &space;\(lgn\)^{lgn}=n^{lglgn}\quad&space;\(lgn\)!\newline &space;n^3\quad&space;n^2=4^{lgn}\quad&space;nlgn=lg\(n!\)\quad&space;2^{lgn}=n\quad&space;\(\sqrt{2}\)^{lgn}=\sqrt{n}\quad&space;2^{\sqrt{2\cdot&space;lgn}}\newline &space;lg^{2}n\quad&space;lnn\quad&space;\sqrt{lgn}\newline &space;lnlnn\quad&space;2^{lg^{*}n}\newline &space;lg^{*}n\quad&space;lg^{*}\(lgn\)\quad&space;lg\(lg^{*}\)n\newline &space;n^{\frac{1}{lgn}}=2\quad&space;1)
+![](https://latex.codecogs.com/gif.latex?2^{2^{n&plus;1}}\quad&space;2^{2^{n}}\newline&space;\(n&plus;1\)!\quad&space;n!\newline&space;e^n\quad&space;n\cdot&space;2^n\quad&space;2^n\quad&space;\(\frac{3}{2}\)^n\newline&space;\(lgn\)^{lgn}=n^{lglgn}\quad&space;\(lgn\)!\newline&space;n^3\quad&space;n^2=4^{lgn}\quad&space;nlgn=lg\(n!\)\quad&space;2^{lgn}=n\quad&space;\(\sqrt{2}\)^{lgn}=\sqrt{n}\quad&space;2^{\sqrt{2\cdot&space;lgn}}\newline&space;lg^{2}n\quad&space;lnn\quad&space;\sqrt{lgn}\newline&space;lnlnn\quad&space;2^{lg^{*}n}\newline&space;lg^{*}n\quad&space;lg^{*}\(lgn\)\quad&space;lg\(lg^{*}\)n\newline&space;n^{\frac{1}{lgn}}=2\quad&space;1)
+![](https://latex.codecogs.com/gif.latex?\(lgn\)^{lgn}=n^{lglgn}\quad&space;because&space;of\quad&space;a^{log_bc}=c^{log_ba}\newline&space;n^{\frac{1}{lgn}}=2\quad&space;because\quad&space;n^{\frac{1}{lgn}}=2^{lgn\cdot&space;\frac{1}{lgn}}=2)
+
 b.
 ![](https://latex.codecogs.com/png.latex?2^{2^\sin{n}})
+
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
