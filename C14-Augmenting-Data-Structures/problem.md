@@ -10,6 +10,10 @@ b. Design a data structure that efficiently supports the operations INTERVAL-INS
 
 端点上的区间不会比其他地方的要少.
 
+证明：假设点p被最多的区间覆盖，这些区间为I<sub>1</sub>, I<sub>2</sub>...I<sub>k</sub>, 其中I<sub>k</sub> = [l<sub>k</sub>, r<sub>k</sub>]. 由于点p被这些区间覆盖，则对任意i，有l<sub>i</sub> ≤ p ≤ r<sub>i</sub>. 下面证明存在一个区间端点，也同样被这些区间覆盖. 
+取 l<sup>\*</sup> = max{l<sub>1</sub> .. l<sub>k</sub>}, 即这k个区间的左端点的最大值. 
+由l<sup>\*</sup>的定义可知, 对任意i, 有l<sub>i</sub> ≤ l<sup>\*</sup> ≤ p. 另外，假设存在一个i, 使得r<sub>i</sub> < l<sup>\*</sup>, 则有l<sub>i</sub> ≤ r<sub>i</sub> < l<sup>\*</sup> ≤ p, 这与点p被区间[l<sub>i</sub>, r<sub>i</sub>]覆盖矛盾, 因此对任意i, 有l<sup>\*</sup> ≤ r<sub>i</sub>. 综上, l<sub>i</sub> ≤ l<sup>\*</sup> ≤ r<sub>i</sub>, 即端点l<sup>\*</sup>也被这k个区间覆盖, 原命题得证. ∎
+
 **b.**
 
 [stackoverflow](http://stackoverflow.com/questions/14780324/point-of-maximum-overlap)
