@@ -55,18 +55,19 @@ b. Suppose that m is not a constant. Describe an O(n lg n)-time algorithm that, 
 
 **b.**
 
-	JOSEPHUS(n,m)
-		initialize T to be empty
-		for j ← 1 to n
-    		do create a node x with key[x] = j
-        	OS-INSERT(T, x)
-		j ← 1
-		for k ← n downto 1
-    		do j ← (( j + m − 2) mod k) + 1
-        	x ← OS-SELECT(root[T ], j )
-        	print key[x]
-        	OS-DELETE(T, x)
-
+````
+JOSEPHUS(n,m)
+	initialize T to be empty
+	for j ← 1 to n
+		do create a node x with key[x] = j
+			OS-INSERT(T, x)
+	j ← 1
+	for k ← n downto 1
+		do j ← (( j + m − 2) mod k) + 1
+			x ← OS-SELECT(root[T ], j )
+			print key[x]
+			OS-DELETE(T, x)
+````
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
 
