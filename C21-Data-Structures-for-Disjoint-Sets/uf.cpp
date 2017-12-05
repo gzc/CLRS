@@ -12,7 +12,7 @@ private:
     int N;
     
     bool validate(int p) {
-        return (p > 0 && p <= N);
+        return (p >= 0 && p < N);
     }
     
 public:
