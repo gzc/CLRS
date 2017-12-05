@@ -1,10 +1,3 @@
-/*************************************************************************
-	> File Name: btree.cpp
-	> Author: Louis1992
-	> Mail: zhenchaogan@gmail.com
-	> Blog: http://gzc.github.io
-	> Created Time: Thu Aug 13 14:10:33 2015
- ************************************************************************/
 #include<iostream>
 #include<stack>
 #include<queue>
