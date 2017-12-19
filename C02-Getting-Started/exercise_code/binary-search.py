@@ -11,7 +11,7 @@ def binarysearch(items, v):
         elif(items[mid] < v):
             low = mid
         else:
-            high = mid - 1
+            high = mid + 1
     return None
 
 items = [1,2,3,4,5]
