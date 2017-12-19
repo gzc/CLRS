@@ -9,7 +9,7 @@ def binarysearch(items, v):
         if(items[mid] == v):
             return mid
         elif(items[mid] < v):
-            low = mid + 1
+            low = mid
         else:
             high = mid - 1
     return None
