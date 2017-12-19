@@ -313,6 +313,8 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 
 # UNSOLVED
 
+[21.3.4](./C21-Data-Structures-for-Disjoint-Sets/21.3.md#exercises-213-4)
+
 [24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
 
 [25.1.4](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-4)
