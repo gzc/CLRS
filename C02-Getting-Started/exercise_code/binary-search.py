@@ -5,13 +5,13 @@ def binarysearch(items, v):
     low = 0
     high = len(items)-1
     while low <= high:
-        mid = (low+high)/2
+        mid = int((low+high)/2)
         if(items[mid] == v):
             return mid
         elif(items[mid] < v):
-            low += 1
+            low = mid
         else:
-            high -= 1
+            high = mid + 1
     return None
 
 items = [1,2,3,4,5]
