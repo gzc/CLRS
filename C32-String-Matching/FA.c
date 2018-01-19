@@ -70,7 +70,7 @@ int main()
 	char *text = "abababacaba";
 	char *pattern = "ababaca";
 	int length = strlen(pattern);
-	int *array = (int*)malloc(3*(length+1));
+	int *array = (int*)malloc(sizeof(int)*3*(length+1));
 	
 	compute_transition_function(pattern,array,3);
 	
