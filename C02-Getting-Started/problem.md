@@ -94,20 +94,10 @@ elements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
 **a.**
 ⟨2,1⟩, ⟨3,1⟩, ⟨8,6⟩, ⟨8,1⟩ 和 ⟨6,1⟩.
 
-**b.**
-数组[n,n-1,n-2,...,3,2,1]有最大的逆序数对. <br />
-一共是(n-1) + (n-2) + …… + 3 + 2 + 1 = n(n-1)/2
+**b.** The array with decending order arrangement i.e. {n, n-1, n-2, ..., 3, 2, 1} has the most inversions.  
+Number of inversions = Number of ways to choose two distinct element from the above set = n(n-1)/2.  
 
-**c.**
-插入排序中移动元素的次数就是逆序数的对数.
-
-设第i(1<=i<=n)个元素和它前面的元素构成逆序数的对数为k_i，k_1 + k_2 +...+ k_n = k
-
-则插入排序的运行时间为Θ(n + k)
-
-这是因为对于第i个元素，比较次数为初始的1次加上由于逆序导致的比较成功从而多出的k_i次
-
-（对于第1个元素略有不同，但是影响的次数为常数，不影响渐进的阶）
+**c.** we know that the inner while loop of insertion sort shift the elements to left to their right position. So if there is more inversion in an array, then we need to shift more elements. Hence as the number of inversions increases, running time of insertion sort increases.
 
 **d.**
 
