@@ -85,11 +85,11 @@ Throughout this book, we assume that parameter passing during procedure calls ta
 
 **b.** <br />
 
-1. T(n) = 2T(n/2) + n + 2, O(NlgN)
+1. ![](http://latex.codecogs.com/gif.latex?T%28n%29%20%3D%202T%28%5Cfrac%7Bn%7D%7B2%7D%29%20&plus;%20n%20&plus;%202%2C%20O%28NlgN%29)
 
-2. T(n) = 2T(n/2) + n + 2N, O(2^{lgN})
+2. ![](http://latex.codecogs.com/gif.latex?T%28n%29%20%3D%202T%28%5Cfrac%7Bn%7D%7B2%7D%29%20&plus;%20n%20&plus;%202N%2C%20%5CTheta%282%5E%7Blg%7BN%7D%7DN%29%20%3D%20%5CTheta%28N%5E2%29)
 
-3. T(N) = 2T(n/2) + n + 2n, O(Nlg^**2**N)
+3. ![](http://latex.codecogs.com/gif.latex?T%28N%29%20%3D%202T%28%5Cfrac%7Bn%7D%7B2%7D%29%20&plus;%20n%20&plus;%202n%2C%20O%28NlgN%29)
 
 
 ### Problems 4 : More recurrence examples
