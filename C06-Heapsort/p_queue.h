@@ -18,7 +18,7 @@ public:
     void insert(int x);
     int maximum(void);
     int extract_max(void);
-    
+    void increase_key(int i, int x);
     
 private:
     int a[10000];

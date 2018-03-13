@@ -55,8 +55,14 @@ int p_queue::extract_max()
     return max;
 }
 
+void p_queue::increase_key(int i, int x) {
+    a[i] = std::max(a[i], x);
 
-
+    while (i > 0 && a[parent(i)] < a[i]) {
+        std::swap(a[parent(i)], a[i]);
+        i = parent(i);
+    }
+}
 
 int p_queue::parent(int i)
 {
