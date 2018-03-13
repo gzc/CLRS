@@ -24,7 +24,7 @@ void p_queue::insert(int x)
     size++;
     a[size-1] = x;
     int i = size-1;
-    while(i > 0 && a[parent(i) < a[i]])
+    while(i > 0 && a[parent(i)] < a[i])
     {
         std::swap(a[i], a[parent(i)]);
         i = parent(i);
