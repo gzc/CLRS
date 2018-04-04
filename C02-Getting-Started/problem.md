@@ -13,13 +13,20 @@ algorithm has the same asymptotic running time as standard merge sort?
 d. How should k be chosen in practice?
 
 ### `Answer`
-a. 总共有n/k个长度为k的列表，所以![](http://latex.codecogs.com/gif.latex?T\(n\)=n/k*\\Theta\(k^2\)=\\Theta\(nk\))
+**(a)** T(n) = (n/k)\*Θ(k<sup>2</sup>) = Θ(nk)  
 
-b. 因为现在的层数为lg(n/k),所以是Θ(n lg (n/k))
+**(b)** If there are n/k sublists, then the height of the tree formed will be lg(n/k). And at each level of the tree, the complexity of
+merging is Θ(n). So the worst case to merge the sublists is Θ(n lg(n/k)).  
 
-c. 要么是Θ(nk) = Θ(nlgn),要么是Θ(nlg(n/k)) = Θ(nlgn).前者k = lgn,后者k = n^0.5.但是后者不成立，因为nk = n^1.5 > nlgn. 所以k = lgn.
+**(c)** Θ(nk + nlg(n/k)) = Θ(nk + nlgn - nlgk)) should be equal to Θ(nlgn)  
+To satisfy this, `k` cannot grow faster than `lgn`, otherwise `nk` term will run worse than `Θ(nlgn)`. So `k <= Θ(lgn)` to satisfy the above condition.
+So largest value of `k = lgn`.  
 
-d. [Exercise 1.2.2](https://github.com/gzc/CLRS/blob/master/C01-The-Role-of-Algorithms-in-Computing/1.2.md)当 n>43 mergesort 好于 insertion sort. 所以可以选40.
+**(d)** Time complexity of insertion sort = c<sub>1</sub>n<sup>2</sup> and the time complexity of merge sort is c<sub>2</sub>nlgn.  
+To find the value of k  
+c<sub>1</sub>k<sup>2</sup> <= c<sub>2</sub>klgk  
+k <= (c<sub>2</sub>/c<sub>1</sub>)lgk  
+Now we can check manually by putting different values of k.
 
 
 
