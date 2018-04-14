@@ -142,20 +142,12 @@ pair<int, int> QuickSort::fastThreePartition(int start, int end, vector<int> & d
     int v = data[start];
     while(true)
     {
-        while(data[++i] < v)
-        {
-            if(i == end)
-            {
-                break;
-            }
-        }
-        while(data[--j] > v)
-        {
-            if(j == start)
-            {
-                break;
-            }
-        }
+        while(i != end && data[++i] < v)
+        ;
+
+        while(j != start && data[--j] > v)
+        ;
+
         if(i == j && data[i] == v)
         {
             swap(data[++p], data[i]);
