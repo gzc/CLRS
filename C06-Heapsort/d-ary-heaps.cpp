@@ -11,7 +11,7 @@
 using namespace std;
 
 #define PARENT(i,d) ((i - 1) / d)
-#define CHILD(i,c,d) (3 * i + c + 1)
+#define CHILD(i,c,d) (d * i + c + 1)
 
 typedef struct {
     int *elements;
