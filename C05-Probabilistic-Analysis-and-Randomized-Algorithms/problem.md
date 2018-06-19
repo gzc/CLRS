@@ -71,16 +71,19 @@ Finally, consider a randomized algorithm SCRAMBLE-SEARCH that works by first ran
 
 
 	RANDOM-SEARCH(A, v):
-		B = new array[n]
+		n = A.length
+		let B be a new array of size n
+		initialize B with some sentinanl values
 		count = 0
 		while(count < n):
 			r = RANDOM(1, n)
-			if A[r] == v:
-				return r
-			if B[r] == false:
-				count += 1
-				B[r] = true
-		return false
+			if B[r] is sentinal value
+			    if A[r] is v
+			        return r
+			    else
+			        B[r] = 0
+			        count += 1
+		return -1
 		
 **b.**
 就是几何分布～n
