@@ -9,9 +9,9 @@ def binarysearch(items, v):
         if(items[mid] == v):
             return mid
         elif(items[mid] < v):
-            low = mid
+            low = mid +1 
         else:
-            high = mid + 1
+            high = mid 
     return None
 
 items = [1,2,3,4,5]
