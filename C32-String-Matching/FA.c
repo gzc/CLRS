@@ -57,7 +57,7 @@ int FA_match(char *text,int *array,int numchars,int receive)
 	int i;
 	for(i = 0;i < n;i++)
 	{
-		int index = numchars*q+text[i]-97;    
+		int index = numchars*q+text[i]-'a';
 		q = array[index]; 
 		if(q == receive)
 			return i+1-receive;
@@ -67,23 +67,32 @@ int FA_match(char *text,int *array,int numchars,int receive)
 
 int main()
 {
-	char *text = "abababacaba";
-	char *pattern = "ababaca";
+	char *text = "aaababaabaababaab";
+	char *pattern = "aabab";
+	const int num_chars_alphabet = 2;
 	int length = strlen(pattern);
-	int *array = (int*)malloc(3*(length+1));
+	int *array = (int*)malloc(sizeof(int)*num_chars_alphabet*(length+1));
 	
-	compute_transition_function(pattern,array,3);
+	compute_transition_function(pattern,array,num_chars_alphabet);
 	
-	int i;
-	printf("This is our chart\n");
+	
+	//This prints a chart showing present state and next states given
+	//the corresponding inputs.
+	printf("This is our chart\nstate\t");
+	for(char j = 'a'; j < 'a'+num_chars_alphabet; j++)
+		printf("%c\t", j);
+    printf("\n");
+    
+    int i;
 	for(i = 0;i <= length; i++)
 	{
+	    printf("%d\t",i);
 		int j;
-		for(j = 0; j < 3; j++)
-			printf("%d  ",array[i*3+j]);
+		for(j = 0; j < num_chars_alphabet; j++)
+			printf("%d\t",array[i*num_chars_alphabet+j]);
 		printf("\n");
 	}
-	int offset = FA_match(text,array,3,length);
+	int offset = FA_match(text,array,num_chars_alphabet,length);
 	printf("offset is %d\n",offset);
 	free(array);
 	return 0;

@@ -17,7 +17,7 @@ void MergeWithCountInversions(vector<int>& v, int p, int q, int r, int& cnt) {
     //   i      n1    j    n2
     //   |      |     |    |
     // |--------)|---------）
-    // 若此时发生L[i] < R[j]，则由于L[0..i) < R[j]且R[0..j) < R[j]
+    // 若此时发生L[i] > R[j]，则由于L[0..i) < R[j]且R[0..j) < R[j]
     // 故与R[j]构成逆序对的元素是L[i..n1)
     if (L[i] <= R[j]) { v[k] = L[i]; i += 1; }
     else { v[k] = R[j]; j += 1; cnt += n1 - i;

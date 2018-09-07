@@ -1,7 +1,7 @@
 # Solutions to CLRS.
 Solutions to *Introduction to Algorithms* by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (CLRS).
 
-![](https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg)
+![](https://images-na.ssl-images-amazon.com/images/I/51n%2B3GEQvYL._SX433_BO1,204,203,200_.jpg)
 
 ## Contributor
 1. [Soyn](https://github.com/Soyn)
@@ -33,8 +33,11 @@ Solutions to *Introduction to Algorithms* by Charles E. Leiserson, Clifford Stei
 27. [imbrobits](https://github.com/imbrobits)
 28. [zhanglanqing](https://github.com/zhanglanqing)
 29. [tushar-rishav](https://github.com/tushar-rishav)
+30. [ravgill](https://github.com/ravgill)
 
 If I miss your name here, please pull a request to me to fix.
+
+You maybe interested in another repo [gitstats](https://github.com/gzc/gitstats) which generates repo contribution of CLRS.
 
 ## This repo needs your help.
 If you are interested in this project, you could complete problems which are marked **"UNSOLVED"** in the following list. Or if you are interested in certain chapters that have not been completed, you could fork this project and issue a pull request to this repo. Appreciate your efforts.
@@ -47,25 +50,18 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 
 ***
 
-
-
-
 <table class="table table-bordered table-striped table-condensed">
     <tr>
         <td><font size="4px" color="#0x888888">Chapter</font></td>
-		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Section</font></td>
+	    <td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Section</font></td>
     </tr>
-
     <tr> <td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part I: Foundations</font></td></tr>
-
-
        <tr>
     	<td align="center">I</td>
 		<td align="center"><a href="./C01-The-Role-of-Algorithms-in-Computing/1.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C01-The-Role-of-Algorithms-in-Computing/1.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C01-The-Role-of-Algorithms-in-Computing/problem.md"><font color="black">p</font></td>
     </tr>
-
           <tr>
     	<td align="center">II</td>
 		<td align="center"><a href="./C02-Getting-Started/2.1.md"><font color="black">1</font></td>
@@ -73,15 +69,12 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C02-Getting-Started/2.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C02-Getting-Started/problem.md"><font color="black">p</font></td>
     </tr>
-
     <tr>
     	<td align="center">III</td>
 		<td align="center"><a href="./C03-Growth-of-Functions/3.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C03-Growth-of-Functions/3.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C03-Growth-of-Functions/problem.md"><font color="black">p</font></td>
     </tr>
-
-
               <tr>
     	<td align="center">IV</td>
 		<td align="center"><a href="./C04-Recurrences/4.1.md"><font color="black">1</font></td>
@@ -90,7 +83,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C04-Recurrences/4.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C04-Recurrences/problem.md"><font color="black">p</font></td>
     </tr>
-
     <tr>
     	<td align="center">V</td>
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.1.md"><font color="black">1</font></td>
@@ -99,12 +91,9 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/5.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C05-Probabilistic-Analysis-and-Randomized-Algorithms/problem.md"><font color="black">p</font></td>
     </tr>
-
     <tr>
 		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888"> Part II: Sorting and Order Statistics</font></td>
     </tr>
-
-
     <tr>
     	<td align="center">VI</td>
 		<td align="center"><a href="./C06-Heapsort/6.1.md"><font color="black">1</font></td>
@@ -114,7 +103,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C06-Heapsort/6.5.md"><font color="black">5</font></td>
 		<td align="center"><a href="./C06-Heapsort/problem.md"><font color="black">p</font></td>
     </tr>
-
     <tr>
     	<td align="center">VII</td>
 		<td align="center"><a href="./C07-Quicksort/7.1.md"><font color="black">1</font></td>
@@ -123,7 +111,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C07-Quicksort/7.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C07-Quicksort/problem.md"><font color="black">p</font></td>
     </tr>
-
     <tr>
     	<td align="center">VIII</td>
 		<td align="center"><a href="./C08-Sorting-in-Linear-Time/8.1.md"><font color="black">1</font></td>
@@ -132,11 +119,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C08-Sorting-in-Linear-Time/8.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C08-Sorting-in-Linear-Time/problem.md"><font color="black">p</font></td>
     </tr>
-
-
-
-
-
     <tr>
     	<td align="center">IX</td>
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/9.1.md"><font color="black">1</font></td>
@@ -144,14 +126,9 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/9.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C09-Medians-and-Order-Statistics/problem.md"><font color="black">p</font></td>
     </tr>
-
-
         <tr>
 		<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part III: Data Structures</font></td>
     </tr>
-
-
-
     <tr>
     	<td align="center">X</td>
 		<td align="center"><a href="./C10-Elementary-Data-Structures/10.1.md"><font color="black">1</font></td>
@@ -160,7 +137,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C10-Elementary-Data-Structures/10.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C10-Elementary-Data-Structures/problem.md"><font color="black">p</font></td>
     </tr>
-
     <tr>
     	<td align="center">XI</td>
 		<td align="center"><a href="./C11-Hash-Tables/11.1.md"><font color="black">1</font></td>
@@ -170,17 +146,12 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C11-Hash-Tables/11.5.md"><font color="black">5</font></td>
 		<td align="center"><a href="./C11-Hash-Tables/problem.md"><font color="black">p</font></td>
     </tr>
-
-
-
             <tr>
     	<td align="center">XII</td>
 		<td align="center"><a href="./C12-Binary-Search-Trees/12.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C12-Binary-Search-Trees/12.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C12-Binary-Search-Trees/12.3.md"><font color="black">3</font></td>
 		</tr>
-
-
         <tr>
     	<td align="center">XIII</td>
 		<td align="center"><a href="./C13-Red-Black-Trees/13.1.md"><font color="black">1</font></td>
@@ -188,8 +159,6 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C13-Red-Black-Trees/13.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C13-Red-Black-Trees/13.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C13-Red-Black-Trees/problem.md"><font color="black">p</font></td></tr>
-
-
 		<tr>
     	<td align="center">XIV</td>
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.1.md"><font color="black">1</font></td>
@@ -197,10 +166,8 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/14.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C14-Augmenting-Data-Structures/problem.md"><font color="black">p</font></td>
 		</tr>
-
 	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part IV: Advanced Design and Analysis Techniques</font></td></tr>
-
 	<tr>
     	<td align="center">XV</td>
 		<td align="center"><a href="./C15-Dynamic-Programming/15.1.md"><font color="black">1</font></td>
@@ -209,45 +176,38 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C15-Dynamic-Programming/15.4.md"><font color="black">4</font></td>
 		<td align="center"><a href="./C15-Dynamic-Programming/15.5.md"><font color="black">5</font></td>
 		</tr>
-
 	<tr>
     	<td align="center">XVI</td>
 		<td align="center"><a href="./C16-Greedy-Algorithms/16.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C16-Greedy-Algorithms/16.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C16-Greedy-Algorithms/16.3.md"><font color="black">3</font></td>
 		</tr>
-
 	<tr>
     	<td align="center">XVII</td>
 		<td align="center"><a href="./C17-Amortized-Analysis/17.1.md"><font color="black">1</font></td>
+		<td align="center"><a href="./C17-Amortized-Analysis/17.2.md"><font color="black">2</font></td>
 		</tr>
-
 	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part V: Advanced Data Structures</font></td></tr>
-
 	<tr>
     	<td align="center">XVIII</td>
 		<td align="center"><a href="./C18-B-Trees/18.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C18-B-Trees/18.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C18-B-Trees/18.3.md"><font color="black">3</font></td>
 		</tr>
-
 		<tr>
     	<td align="center">XIX</td>
 		<td align="center"><a href="./C19-Binomial-Heaps/19.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C19-Binomial-Heaps/19.2.md"><font color="black">2</font></td>
 		</tr>
-
 		<tr>
     	<td align="center">XXI</td>
 		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C21-Data-Structures-for-Disjoint-Sets/21.3.md"><font color="black">3</font></td>
 		</tr>
-
 	<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VI: Graph Algorithms</font></td></tr>
-
 		<tr>
     	<td align="center">XXII</td>
 		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.1.md"><font color="black">1</font></td>
@@ -257,13 +217,11 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/22.5.md"><font color="black">5</font></td>
 		<td align="center"><a href="./C22-Elementary-Graph-Algorithms/problem.md"><font color="black">p</font></td>
 		</tr>
-
 		<tr>
     	<td align="center">XXIII</td>
 		<td align="center"><a href="./C23-Minimum-Spanning-Trees/23.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C23-Minimum-Spanning-Trees/23.2.md"><font color="black">2</font></td>
 		</tr>
-
 		<tr>
     	<td align="center">XXIV</td>
 		<td align="center"><a href="./C24-Single-Source-Shortest-Paths/24.1.md"><font color="black">1</font></td>
@@ -271,28 +229,24 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C24-Single-Source-Shortest-Paths/24.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C24-Single-Source-Shortest-Paths/24.4.md"><font color="black">4</font></td>
 		</tr>
-
 		<tr>
     	<td align="center">XXV</td>
 		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.2.md"><font color="black">2</font></td>
+		<td align="center"><a href="./C25-All-Pairs-Shortest-Paths/25.3.md"><font color="black">3</font></td>
 		</tr>
-
 		<tr>
     	<td align="center">XXVI</td>
 		<td align="center"><a href="./C26-Flow-networks/26.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C26-Flow-networks/26.2.md"><font color="black">2</font></td>
 		<td align="center"><a href="./C26-Flow-networks/26.3.md"><font color="black">3</font></td>
 		</tr>
-
 		<tr>
 	<td align = "center" colspan='20' width = "100%"><font size="4px" color="#0x888888">Part VII: Selected Topics</font></td></tr>
-
 	<tr><td align="center">XXXI</td>
 		<td align="center"><a href="./C31-Number-Theoretic-Algorithms/31.1.md"><font color="black">1</font></td>
 		<td align="center"><a href="./C31-Number-Theoretic-Algorithms/31.2.md"><font color="black">2</font></td>
 		</tr>
-
 	<tr>
     	<td align="center">XXXII</td>
 		<td align="center"><a href="./C32-String-Matching/32.1.md"><font color="black">1</font></td>
@@ -300,22 +254,20 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 		<td align="center"><a href="./C32-String-Matching/32.3.md"><font color="black">3</font></td>
 		<td align="center"><a href="./C32-String-Matching/32.4.md"><font color="black">4</font></td>
 		</tr>
-
 		<tr><td align="center">XXXIII</td>
 		<td align="center"><a href="./C33-Computational-Geometry/33.1.md"><font color="black">1</font></td>
 		</tr>
 		<tr><td align="center">XXXV</td>
 		<td align="center"><a href="./C35-Approximation-Algorithms/35.1.md"><font color="black">1</font></td>
 		</tr>
-
-
 </table>
+
 ***
 
 
-##Data Structure&algorithm implementation
+## Data Structure&algorithm implementation
 
-###BASIC
+### BASIC
 * [Heap](./C06-Heapsort/heap.cpp)
 * [Priority Queue](./C06-Heapsort/p_queue.h)
 * [Quicksort](./C07-Quicksort/quicksort.py)
@@ -324,50 +276,55 @@ If a problem is too easy to solve, we'll mark it as **straightforward** in order
 * [K-th Finding](./C09-Medians-and-Order-Statistics/worst-case-linear-time.cpp)
 * [Deque(py)](./C10-Elementary-Data-Structures/exercise_code/deque.py) [Deque(c++)](./C10-Elementary-Data-Structures/exercise_code/deque.cpp)
 
-###DIVIDE and CONQUER
+### DIVIDE and CONQUER
 * [Karatsuba](./other/Karatsuba)
 
 
-###TREE/ADVANCED
+### TREE/ADVANCED
 * [BST](./C12-Binary-Search-Trees/BSTree.h)
 * [RBT](./C13-Red-Black-Trees/rbtree.cpp)
 * [Btree](./C18-B-Trees/btree.cpp)
 * [BinomialHeap](./C19-Binomial-Heaps/BinomialHeap.h)  [Driver](././C19-Binomial-Heaps/Main.cpp)
-* [UnionFind](./C21-Data-Structures-for-Disjoint-Sets/uf.cpp)
 * [SegmentTree](./other/segmentTree.cpp)
+* [Trie](./other/trie.cpp)
+* [UnionFind](./C21-Data-Structures-for-Disjoint-Sets/uf.cpp)
 
-###DYNAMIC/GREEDY
+### DYNAMIC/GREEDY
 * [Matrix Chain](./C15-Dynamic-Programming/Matrix-chain-multiplication.c)
 * [Huffman](./C16-Greedy-Algorithms/huffman)
 
-###GRAPH
+### GRAPH
 * [Kosaraju's Algorithm ( strongly connected components )](./C22-Elementary-Graph-Algorithms/elementary_graph_algo.py#L70)
 * [Maximum Flow](./C26-Flow-networks/maxflow)
 * [Floyd-Warshall](./C25-All-Pairs-Shortest-Paths/Floyd_Warshall.cpp)
 
-###GEOMETRY
+### GEOMETRY
 * [LineIntersection](./C33-Computational-Geometry/twoline.cpp)
 * Convex Hull
   * [Graham Scan](./C33-Computational-Geometry/Graham_Scan.py)
 
-###STRING
+### STRING
 * [BruteForce](./C32-String-Matching/BF.c)
 * [KMP](./C32-String-Matching/KMP.c)
 * [DFA](./C32-String-Matching/FA.c)
 
-#UNSOLVED
+### UTILITY
+* [Split string by delimiter in C++](./other/stringSpilit.cpp)
 
-[24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9)
+# UNSOLVED
 
-[25.1.4](./C25-All-Pairs-Shortest-Paths/25.1.md#exercises-251-4)
+[21.2.5](./C21-Data-Structures-for-Disjoint-Sets/21.2.md#exercises-212-5)
+[21.3.4](./C21-Data-Structures-for-Disjoint-Sets/21.3.md#exercises-213-4-)
+
+[24.4.9](./C24-Single-Source-Shortest-Paths/24.4.md#exercises-244-9-)
 
 [31.1.11](./C31-Number-Theoretic-Algorithms/31.1.md#exercises-311-11)
 [31.2.7](./C31-Number-Theoretic-Algorithms/31.2.md#exercises-312-7)
 [31.2.9](./C31-Number-Theoretic-Algorithms/31.2.md#exercises-312-9)
 
 [32.2.4](./C32-String-Matching/32.2.md#exercises-322-4)
-[32.3.4](./C32-String-Matching/32.3.md#exercises-323-4)
-[32.4.6](./C32-String-Matching/32.4.md#exercises-324-6)
+[32.3.4](./C32-String-Matching/32.3.md#exercises-323-4-)
+[32.4.6](./C32-String-Matching/32.4.md#exercises-324-6-)
 
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
