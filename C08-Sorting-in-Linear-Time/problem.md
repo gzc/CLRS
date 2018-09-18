@@ -86,7 +86,7 @@ Suppose that the n records have keys in the range from 1 to k. Show how to modif
 ### `Answer`
 **a.** 
 
-计数排序就可以.
+Couting Sort
 
 **b.**
 
@@ -94,7 +94,7 @@ Using HOARE-PARTITION can do it.More details in [Exercise7.1](https://github.com
 
 **c.**
 
-merge-sort就可以
+Merge Sort
 
 [stable in-place sort](http://www.codeproject.com/Articles/26048/Fastest-In-Place-Stable-Sort)
 
