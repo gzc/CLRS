@@ -8,11 +8,10 @@ import math
 import time
 
 def binary_search(array, searchingelement):
-	z = array.__len__()
-	last = z
-	mid = int(z/2)
+	last = array.__len__()
+	mid = int(last/2)
 	min = 0
-	for i in range(int(math.log(z)/math.log(2)) + 1):
+	for i in range(int(math.log(last)/math.log(2)) + 1):
 		if array[mid] == searchingelement:
 			return str(mid) + " th index"
 		elif array[mid] < searchingelement:
