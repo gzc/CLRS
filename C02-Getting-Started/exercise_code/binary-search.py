@@ -17,7 +17,7 @@ def binary_search(array, searchingelement):
 		elif array[mid] < searchingelement:
 			min = mid
 			mid = int((last + mid) / 2)
-		elif array[mid] > searchingelement:
+		else:
 			last = mid
 			mid = int((mid + min) / 2)
 	return null
