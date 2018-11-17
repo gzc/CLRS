@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
+import math
 
 def merge(items, p, q, r):
     L = items[p:q+1]
@@ -21,7 +22,7 @@ def merge(items, p, q, r):
 
 def mergesort(items, p, r):
     if(p < r):
-        q = (p+r)/2
+        q = math.floor((p+r)/2)
         mergesort(items, p, q)
         mergesort(items, q+1, r)
         merge(items, p, q, r)
