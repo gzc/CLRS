@@ -99,7 +99,7 @@ elements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
 
 ### `Answer`
 **a.**
-⟨2,1⟩, ⟨3,1⟩, ⟨8,6⟩, ⟨8,1⟩ 和 ⟨6,1⟩.
+(1, 5), (2, 5), (3, 5), (4, 5), (3, 4)
 
 **b.** The array with decending order arrangement i.e. {n, n-1, n-2, ..., 3, 2, 1} has the most inversions.  
 Number of inversions = Number of ways to choose two distinct element from the above set = n(n-1)/2.  
