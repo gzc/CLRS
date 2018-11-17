@@ -21,7 +21,6 @@ def binary_search(array, searchingelement):
 			last = mid
 			mid = int((mid + min) / 2)
 	return null
-
 		
 if __name__ == '__main__':
 	array = []
