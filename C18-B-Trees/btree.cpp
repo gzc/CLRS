@@ -504,7 +504,13 @@ private:
             pParent->pChild[i+1] = pParent->pChild[i+2];
         }
         deleteNode(pChild2);  //删除pChild2
-        if(pParent->n == 0) deleteNode(pParent);
+        if(pParent->n == 0)
+        {
+            deleteNode(pParent);
+            if (pParent == bRoot){
+                bRoot = pChild1;
+            }
+        }
     }
     
     T getPredecessor(Node *pNode)//找到前驱关键字
