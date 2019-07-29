@@ -1,3 +1,6 @@
+// solution to 16.1-5
+// provided by B1Z0N
+
 #include <iostream>	// cin, cout
 #include <ios>		// streamsize
 #include <vector>	// vector
