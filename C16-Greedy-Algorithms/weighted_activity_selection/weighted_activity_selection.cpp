@@ -1,6 +1,19 @@
 // solution to 16.1-5
 // provided by B1Z0N
 
+/**
+ * Note about complexity. Main function is __solve().
+ * C++'s std::sort is quicksort, that performs, in O( n * lg( n ) ) on the average
+ * Solution function uses binary_search in O( lg( index ) ), while index is 1, 2, ... , n, 
+ * so complexity is O( lg( 1 ) + lg( 2 ) + ... + lg( n ) ) = O( lg( n! ) )
+ * lg( n! ) is O( n * lg( n )) because n * lg( n ) = lg( n^n ) and n^n is growing 
+ * faster then n!, so let's sum up complexity including sorting and binary search inside
+ * loop: O( n * lg( n ) + lg( n! ) ) = O( n * lg( n ) )
+ * 
+ * P. S. Pretty good result using dynamic programming, greedy approach to this problem
+ * doesn't exist.
+ */
+
 #include <iostream>	// cin, cout
 #include <ios>		// streamsize
 #include <vector>	// vector
