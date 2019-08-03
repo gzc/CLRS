@@ -28,7 +28,6 @@
 *************************************************************************/
 #include "weighted_activity_selection.h"
 
-#include <ios>
 #include <vector>
 #include <algorithm>
 #include <ctime>
