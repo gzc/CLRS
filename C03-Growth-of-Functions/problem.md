@@ -18,7 +18,7 @@ A | B | O | o | Ω | ω | Θ
 ![](http://latex.codecogs.com/gif.latex?\\n^k) | ![](http://latex.codecogs.com/gif.latex?c^n) | yes | yes | no | no | no
 ![](http://latex.codecogs.com/gif.latex?\\sqrt{n}) | ![](http://latex.codecogs.com/gif.latex?n^\\sin{n}) | no | no | no | no | no
 ![](http://latex.codecogs.com/gif.latex?\\2^n) | ![](http://latex.codecogs.com/gif.latex?2^{n/2}) | no | no | yes | yes | no
-![](http://latex.codecogs.com/gif.latex?n^\\lg{c}) | ![](http://latex.codecogs.com/gif.latex?c^\\lg{n}) | yes | no | yes | no | yes
+![](http://latex.codecogs.com/gif.latex?\\n^{lg{c}}) | ![](http://latex.codecogs.com/gif.latex?\\c^{lg{n}}) | yes | no | yes | no | yes
 ![](http://latex.codecogs.com/gif.latex?\\lg{\(n!\)}) | ![](http://latex.codecogs.com/gif.latex?\\lg{\(n^n\)}) | yes | no | yes | no | yes
 
 For this problem, some people point out that
