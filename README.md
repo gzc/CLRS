@@ -35,6 +35,7 @@ Solutions to *Introduction to Algorithms* by Charles E. Leiserson, Clifford Stei
 29. [tushar-rishav](https://github.com/tushar-rishav)
 30. [ravgill](https://github.com/ravgill)
 31. [Mad_Kingu](https://github.com/Mad-Kingu)
+32. [kotoz](https://github.com/Kottoz)
 
 If I miss your name here, please pull a request to me to fix.
 
