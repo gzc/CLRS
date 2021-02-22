@@ -183,12 +183,46 @@ more than n/2 of the chips are good. Give and solve the recurrence that describe
 
 
 ### `Answer`
+
+中文版
+
 a. 如果超过一半是坏的，那么我们可以从这些坏的中取出一组数量和好的一样多的，他们的表现能和好的一样.
 
 b. 将所有的芯片两两配对，如果报告是both are good or bad,那么就从中随机选一个留下来，否则全部扔掉. 一直这样递归下去，最后剩下的是好的.
 
 c. T(n) = T(n/2)+n/2,是Θ(n)的.
 
+English Version
+
+a. consider the situation that at least half chips are bad. Denote good chip number is N. 
+**We can choice more than N bad chips, and make them act as same as GOOD one.**
+In this situation, we cannot distinguish whether is GOOD or BAD.(The BAD chips are always major and perfectly confuse information GOOD chips make)
+
+b. Let make floor(N / 2) pairs arbitrarily. We **focus the pairs that both of it report opponent is GOOD.**
+Because at least half chips are GOOD, **the pairs both report opponent is GOOD contains at least half GOOD-GOOD pairs.** Next, **we discard one chip of the GOOD-GOOD pair, per every GOOD-GOOD pairs.** After all, **we operate the remained chips as same as this action.**(make pairs -> focus GOOD-GOOD reported pairs -> discard one chip per pairs)
+We can decrease the target chips by half by discarding, and **after discarding we can still assure that target chips contains at least half GOOD chips.** As a conclusion, if we make this actions till the last chip remained, the last must be GOOD.
+
+c. The recurrence is
+
+T(n) = T(n / 2) + n / 2
+
+This is Θ(n) admittedly.
+
+日本語版
+
+a. 過半数のチップがbadの時、**goodのチップより多くのbadチップに、goodチップと同じ挙動をしてもらえばよい。**
+そのとき、判別者はどれがgoodでどれがbadチップなのかを判別できない。
+
+b. 任意にfloor(N / 2)ペア組んで、その中で「どちらもGOOD」のペアに着目する。この時、**必ず過半数のペアはGOOD-GOODである(つまり、BAD-BADよりもGOOD-GOODの方が必ず多い)**
+次に、その「どちらもGOOD」の各ペアのうち片方のチップを除外する。この操作後でも、着目するチップのうち、GOODチップはBADチップより必ず多くなる。
+よって、その半分にする作業を最後の1つになるまで繰り返せば、残ったチップはGOODだと確定する。(常にGOODチップは
+BADチップより多いため)
+
+c. T(n)は、n / 2回のペア判別と捨てるを行った後、T(n / 2)の計算に移るので、漸化式は
+
+T(n) = T(n / 2) + n / 2
+
+この漸化式は明らかに、Θ(n)の式となる。
 
 ### Problems 7 : Monge arrays
 ***
