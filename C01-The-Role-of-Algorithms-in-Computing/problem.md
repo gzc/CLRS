@@ -15,6 +15,7 @@ Item | 1 second | 1 miniute | 1 hour | 1 day | 1 month | 1 year | 1 century
 ![](http://latex.codecogs.com/gif.latex?\\/{n}!) | 9 | 11 | 12 | 13 | 15 | 16 | 17
 
 
+[code](./exercise_code/problem-1-1.cpp)
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
 
