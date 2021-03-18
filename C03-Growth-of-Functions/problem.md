@@ -18,7 +18,7 @@ A | B | O | o | Ω | ω | Θ
 ![](http://latex.codecogs.com/gif.latex?\\n^k) | ![](http://latex.codecogs.com/gif.latex?c^n) | yes | yes | no | no | no
 ![](http://latex.codecogs.com/gif.latex?\\sqrt{n}) | ![](http://latex.codecogs.com/gif.latex?n^\\sin{n}) | no | no | no | no | no
 ![](http://latex.codecogs.com/gif.latex?\\2^n) | ![](http://latex.codecogs.com/gif.latex?2^{n/2}) | no | no | yes | yes | no
-![](http://latex.codecogs.com/gif.latex?n^\\lg{c}) | ![](http://latex.codecogs.com/gif.latex?c^\\lg{n}) | yes | no | yes | no | yes
+![](http://latex.codecogs.com/gif.latex?\\n^{lg{c}}) | ![](http://latex.codecogs.com/gif.latex?\\c^{lg{n}}) | yes | no | yes | no | yes
 ![](http://latex.codecogs.com/gif.latex?\\lg{\(n!\)}) | ![](http://latex.codecogs.com/gif.latex?\\lg{\(n^n\)}) | yes | no | yes | no | yes
 
 For this problem, some people point out that
@@ -54,7 +54,16 @@ a.
 b.
 ![](https://latex.codecogs.com/png.latex?2^{2^\sin{n}})
 
-
+### Problems 6 : Iterated functions
+f(n) | c | fc*(n) 
+:----:|:----:|:----:|
+n-1 | 0|  \|n\||
+log n| 1| log* n
+n/2|1| ![](https://latex.codecogs.com/gif.latex?\\left&space;\lceil&space;log&space;n&space;\right&space;\rceil)
+n/2 |2|![](https://latex.codecogs.com/gif.latex?\left&space;\lceil&space;log&space;n&space;\right&space;\rceil&space;-1)
+![](https://latex.codecogs.com/gif.latex?\sqrt{n}) | 2 | loglog n
+![](https://latex.codecogs.com/gif.latex?\sqrt{n}) | 1 | undefined
+![](https://latex.codecogs.com/gif.latex?n^{\frac{1}{3}}) | 2 | ![](https://latex.codecogs.com/gif.latex?log{_3}log{_2}(n))
+n/log n | 2 | ![](https://latex.codecogs.com/gif.latex?\frac{log&space;n}{log(log&space;n)})
 ***
 Follow [@louis1992](https://github.com/gzc) on github to help finish this task.
-
