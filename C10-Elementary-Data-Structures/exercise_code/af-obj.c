@@ -31,6 +31,8 @@ list_t allocate_object() {
     
     list_t new = free_list;
     free_list = NEXT(free_list);
+    NEXT(new_obj) = empty_list;
+    PREV(new_obj) = empty_list;
     return new;
 }
 
