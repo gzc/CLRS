@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-# coding=utf-8
+from pkgutil import iter_modules
+from wsgiref.validate import PartialIteratorWrapper
+
 
 def quicksort(items, p, r):
     if p < r:
@@ -8,23 +9,32 @@ def quicksort(items, p, r):
         quicksort(items, q+1, r)
 
 def partition(items, p, r):
-    x = items[r]
-    i = p-1
-    count = 0
+    x = items[r] # pivot
+    i = p-1 # insert index
+    high = r # last index of the searching
+    count = 0 # count of value such as pivot
 
-    for j in range(p, r):
-        if items[j] == x:
+    j = p # loop count
+    while j < high :
+        # if value is same to pivot, move it to end of the non-searching
+        if items[j] == x :
+            high -= 1
             count += 1
+            items[j], items[high] = items[high], items[j]
+        
+        else :
+            if items[j] < x :
+                i += 1
+                items[i], items[j] = items[j], items[i]
+            j += 1
+    # move pivots to appropriate index
+    for x in range(0, count + 1) :
+        items[i + 1 + x], items[high + x] = items[high + x], items[i + 1 + x]
 
-        if items[j] <= x:
-            i = i + 1
-            items[i],items[j] = items[j],items[i]
-
-    items[i+1],items[r] = items[r],items[i+1]
-    return i+1-count/2
+    # return mid index of pivots
+    return int(i + 1 + count/2)
 
 
 
-items = [2,5,9,3,7,0,-1]
-quicksort(items, 0, len(items)-1)
-print items
+items = [1, 4, 3, 3, 9, 3, 2, 10, 5, 8, -1, 3]
+print(quicksort(items, 0, len(items) - 1))
