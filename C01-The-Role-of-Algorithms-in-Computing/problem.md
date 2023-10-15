@@ -3,7 +3,7 @@
 For each function **f**(n) and time t in the following table, determine the largest size n of a problem that can be solved in time t, assuming that the algorithm to solve the problem takes **f**(n) microseconds.
 
 ### `Answer`
-Item | 1 second | 1 miniute | 1 hour | 1 day | 1 month | 1 year | 1 century
+Item | 1 second | 1 minute | 1 hour | 1 day | 1 month | 1 year | 1 century
 :----:|----:|----:|----:|----:|----:|----:|----:
 ![](http://latex.codecogs.com/gif.latex?\\lg{n}) | ![](http://latex.codecogs.com/gif.latex?\\2^{10^6}})  | ![](http://latex.codecogs.com/gif.latex?\\2^{6*10^7}}) | ![](http://latex.codecogs.com/gif.latex?\\2^{36*10^8}}) | ![](http://latex.codecogs.com/gif.latex?\\2^{864*10^8}}) | ![](http://latex.codecogs.com/gif.latex?\\2^{25920*10^8}}) | ![](http://latex.codecogs.com/gif.latex?\\2^{315360*10^8}}) | ![](http://latex.codecogs.com/gif.latex?\\2^{31556736*10^8}})
 ![](http://latex.codecogs.com/gif.latex?\\/{n}^{1/2}) | ![](http://latex.codecogs.com/gif.latex?\\10^{12}) | ![](http://latex.codecogs.com/gif.latex?\\36*10^{14}) | ![](http://latex.codecogs.com/gif.latex?\\1296*10^{16}) | ![](http://latex.codecogs.com/gif.latex?\\746496*10^{16}) | ![](http://latex.codecogs.com/gif.latex?\\6718464*10^{18}) | ![](http://latex.codecogs.com/gif.latex?\\994519296*10^{18}) | ![](http://latex.codecogs.com/gif.latex?\\995827586973696*10^{16}) 
